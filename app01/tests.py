@@ -52,4 +52,22 @@ class StudentTestCase(TestCase):
         client = Client()
         response = client.get("/admin")
         self.assertEqual(response.status_code, 200, 'status code must be 200!')
+
     def test_post_student(self):
+        client = Client()
+        data = dict(
+            name='test_for_post',
+            sex=1,
+            email='333@dd.com',
+            profession='cxy',
+            qq='222',
+            phone='3222'
+        )
+        response = client.post("/", data)
+        self.assertEqual(response.status_code, 302, 'status code must be 302!')
+        response = client.get("/")
+        self.assertTrue(b'test_for_post' in response.content, "response content must contain `test_for_test`")
+
+    def tearDown(self):
+        """用来清理测试环境和测试数据，在Django中，我们可以不关心这个"""
+        pass

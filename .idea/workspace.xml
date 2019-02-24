@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf75ce1-b77b-4cd8-9add-79f26e46cf87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app01/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文档/简单的web_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app01/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_filter.coverage" NAME="Test: app01.tests.StudentTestCase.test_filter Coverage Results" MODIFIED="1551006863604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_filter.coverage" NAME="Test: app01.tests.StudentTestCase.test_filter Coverage Results" MODIFIED="1551007825636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_creat_and_sex_show.coverage" NAME="Test: app01.tests.StudentTestCase.test_creat_and_sex_show Coverage Results" MODIFIED="1551005892122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Django$web_server.coverage" NAME="简单的web_server Coverage Results" MODIFIED="1550989678496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文档" />
     <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_get_index.coverage" NAME="Test: app01.tests.StudentTestCase.test_get_index Coverage Results" MODIFIED="1551007150575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -28,95 +22,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app01/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#203#242#0" expanded="true" />
+                <element signature="e#310#2091#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app01/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="625">
-                <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/文档/WSGI.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/文档/简单的web_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -190,7 +104,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: app01.tests.StudentTestCase.test_get_index">
+  <component name="RunManager" selected="Django tests.Test: app01.tests.StudentTestCase.test_filter">
     <configuration name="Test: app01.tests.StudentTestCase.test_creat_and_sex_show" type="DjangoTestsConfigurationType" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,8 +227,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: app01.tests.StudentTestCase.test_get_index" />
         <item itemvalue="Django tests.Test: app01.tests.StudentTestCase.test_filter" />
+        <item itemvalue="Django tests.Test: app01.tests.StudentTestCase.test_get_index" />
         <item itemvalue="Django tests.Test: app01.tests.StudentTestCase.test_creat_and_sex_show" />
         <item itemvalue="Python.简单的web_server" />
       </list>
@@ -331,7 +245,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550980353328</updated>
       <workItem from="1550980420839" duration="9566000" />
-      <workItem from="1551003816411" duration="3299000" />
+      <workItem from="1551003816411" duration="4834000" />
     </task>
     <task id="LOCAL-00001" summary="Django企业开发实战">
       <created>1550981592374</created>
@@ -361,13 +275,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550988475055</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="单元测试">
+      <created>1551007222255</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551007222255</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__app01_tests_StudentTestCase_test_creat_and_sex_show - 2019.02.24 at 18h 56m 36s.xml">
-      <configuration name="Test: app01.tests.StudentTestCase.test_creat_and_sex_show" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
     <history-entry file="Test__app01_tests_StudentTestCase_test_creat_and_sex_show - 2019.02.24 at 18h 57m 33s.xml">
       <configuration name="Test: app01.tests.StudentTestCase.test_creat_and_sex_show" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
@@ -389,12 +307,22 @@
     <history-entry file="Test__app01_tests_StudentTestCase_test_get_index - 2019.02.24 at 19h 18m 13s.xml">
       <configuration name="Test: app01.tests.StudentTestCase.test_get_index" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__app01_tests_StudentTestCase_test_get_index - 2019.02.24 at 19h 19m 16s.xml">
+      <configuration name="Test: app01.tests.StudentTestCase.test_get_index" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__app01_tests_StudentTestCase_test_filter - 2019.02.24 at 19h 30m 21s.xml">
+      <configuration name="Test: app01.tests.StudentTestCase.test_filter" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__app01_tests_StudentTestCase_test_filter - 2019.02.24 at 19h 30m 30s.xml">
+      <configuration name="Test: app01.tests.StudentTestCase.test_filter" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12865000" />
+    <option name="totallyTimeSpent" value="14400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -402,7 +330,7 @@
       <window_info anchor="bottom" id="manage.py@Django企业开发实战" weight="0.32850778" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -410,7 +338,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.4454343" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.4454343" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -429,7 +357,8 @@
     <MESSAGE value="Django企业开发实战" />
     <MESSAGE value="readme" />
     <MESSAGE value="WSGI" />
-    <option name="LAST_COMMIT_MESSAGE" value="WSGI" />
+    <MESSAGE value="单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="单元测试" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/urls.py">
@@ -502,10 +431,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#203#242#0" expanded="true" />
+            <element signature="e#310#2091#0" />
           </folding>
         </state>
       </provider>
