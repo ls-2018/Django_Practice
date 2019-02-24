@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf75ce1-b77b-4cd8-9add-79f26e46cf87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/文档/Django的规范.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/虚拟环境/venv.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/虚拟环境/virtualenv.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/虚拟环境/virtualenvwrapper.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/文档/Django的规范.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -30,6 +32,39 @@
                 <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/虚拟环境/venv.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="75">
+                <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/虚拟环境/virtualenv.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="200">
+                <caret line="8" column="16" selection-end-line="8" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/虚拟环境/virtualenvwrapper.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -60,6 +95,10 @@
         <option value="$PROJECT_DIR$/app01/tests.py" />
         <option value="$PROJECT_DIR$/文档/编码规范.md" />
         <option value="$PROJECT_DIR$/文档/Django的规范.md" />
+        <option value="$PROJECT_DIR$/虚拟环境/venv.md" />
+        <option value="$PROJECT_DIR$/虚拟环境/virtualenv.md" />
+        <option value="$PROJECT_DIR$/虚拟环境/virtualenvwrapper" />
+        <option value="$PROJECT_DIR$/虚拟环境/virtualenvwrapper.md" />
       </list>
     </option>
   </component>
@@ -88,12 +127,7 @@
             <path>
               <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="文档" type="462c0819:PsiDirectoryNode" />
+              <item name="虚拟环境" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +280,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550980353328</updated>
       <workItem from="1550980420839" duration="9566000" />
-      <workItem from="1551003816411" duration="6006000" />
+      <workItem from="1551003816411" duration="6680000" />
     </task>
     <task id="LOCAL-00001" summary="Django企业开发实战">
       <created>1550981592374</created>
@@ -297,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551009428922</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="django编码规范">
+      <created>1551009884261</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551009884261</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -333,10 +374,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15572000" />
+    <option name="totallyTimeSpent" value="16246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -373,7 +415,8 @@
     <MESSAGE value="WSGI" />
     <MESSAGE value="单元测试" />
     <MESSAGE value="编码规范" />
-    <option name="LAST_COMMIT_MESSAGE" value="编码规范" />
+    <MESSAGE value="django编码规范" />
+    <option name="LAST_COMMIT_MESSAGE" value="django编码规范" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/urls.py">
@@ -472,6 +515,33 @@
             <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟环境/venv.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟环境/virtualenv.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="16" selection-end-line="8" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/虚拟环境/virtualenvwrapper.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
