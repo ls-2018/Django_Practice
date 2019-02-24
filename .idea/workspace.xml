@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf75ce1-b77b-4cd8-9add-79f26e46cf87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/manage.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Django企业开发实战/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+            <state relative-caret-position="450">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -40,10 +42,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="54" />
+            <state relative-caret-position="175">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -118,24 +125,6 @@
               <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="settings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -150,11 +139,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Destop\Django_Practice\Django企业开发实战" />
       <recent name="E:\Destop\Django_Practice\others" />
       <recent name="E:\Desktop\Django企业开发实战" />
       <recent name="E:\Desktop\Django企业开发实战\Django企业开发实战\Django企业开发实战" />
       <recent name="E:\Desktop\Django企业开发实战\Django企业开发实战\Django企业开发实战\settings" />
-      <recent name="E:\Desktop\Django企业开发实战\Django企业开发实战" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Desktop\Django企业开发实战\Django企业开发实战\Django企业开发实战" />
@@ -181,7 +170,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Django企业开发实战.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Python35\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -210,7 +199,7 @@
       <updated>1550980353328</updated>
       <workItem from="1550980420839" duration="9566000" />
       <workItem from="1551003816411" duration="8367000" />
-      <workItem from="1551013387949" duration="1965000" />
+      <workItem from="1551013387949" duration="2293000" />
     </task>
     <task id="LOCAL-00001" summary="Django企业开发实战">
       <created>1550981592374</created>
@@ -303,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551014731296</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="_">
+      <created>1551015365695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1551015365695</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -339,18 +335,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19898000" />
+    <option name="totallyTimeSpent" value="20226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -358,8 +353,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32962137" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" weight="0.4454343" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.4454343" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="manage.py@Django企业开发实战" order="13" weight="0.32850778" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -484,27 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/Python35/Lib/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
         </state>
       </provider>
     </entry>
@@ -548,9 +526,6 @@
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -575,19 +550,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" selection-start-line="14" selection-end-line="14" selection-end-column="54" />
+        <state relative-caret-position="450">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/manage.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="375">
+          <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
