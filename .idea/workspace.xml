@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf75ce1-b77b-4cd8-9add-79f26e46cf87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/文档/Queryset.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django企业开发实战.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +17,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django_Practice$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1551017012798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django企业开发实战/config" />
-    <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_creat_and_sex_show.coverage" NAME="Test: app01.tests.StudentTestCase.test_creat_and_sex_show Coverage Results" MODIFIED="1551005892122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Django_Practice$manage.coverage" NAME="manage Coverage Results" MODIFIED="1551017971411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django企业开发实战" />
-    <SUITE FILE_PATH="coverage/Django$web_server.coverage" NAME="简单的web_server Coverage Results" MODIFIED="1550989678496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文档" />
     <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_filter.coverage" NAME="Test: app01.tests.StudentTestCase.test_filter Coverage Results" MODIFIED="1551007825636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Django_Practice$manage.coverage" NAME="manage Coverage Results" MODIFIED="1551017971411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django企业开发实战" />
+    <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_creat_and_sex_show.coverage" NAME="Test: app01.tests.StudentTestCase.test_creat_and_sex_show Coverage Results" MODIFIED="1551005892122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Django$web_server.coverage" NAME="简单的web_server Coverage Results" MODIFIED="1550989678496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/文档" />
+    <SUITE FILE_PATH="coverage/Django_Practice$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1551017012798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Django企业开发实战/config" />
     <SUITE FILE_PATH="coverage/Django$Test__app01_tests_StudentTestCase_test_get_index.coverage" NAME="Test: app01.tests.StudentTestCase.test_get_index Coverage Results" MODIFIED="1551007150575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -32,61 +30,35 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1377">
-              <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <entry file="file://$PROJECT_DIR$/others/文档/Django的规范.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="525">
+                <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/config/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/comment/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        <entry file="file://$PROJECT_DIR$/others/文档/Model字段.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#636#668#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <entry file="file://$PROJECT_DIR$/others/文档/Queryset.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="772">
+                <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="49" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -138,11 +110,14 @@
         <option value="$PROJECT_DIR$/Django企业开发实战/config/models.py" />
         <option value="$PROJECT_DIR$/Django企业开发实战/comment/models.py" />
         <option value="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" />
+        <option value="$PROJECT_DIR$/others/文档/QuerySet.md" />
+        <option value="$PROJECT_DIR$/others/文档/Queryset.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="816" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1400" />
     <option name="height" value="1047" />
   </component>
@@ -154,23 +129,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="文档" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,6 +255,7 @@
       <workItem from="1550980420839" duration="9566000" />
       <workItem from="1551003816411" duration="8367000" />
       <workItem from="1551013387949" duration="4659000" />
+      <workItem from="1551063321099" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="Django企业开发实战">
       <created>1550981592374</created>
@@ -423,12 +405,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22592000" />
+    <option name="totallyTimeSpent" value="24139000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="816" y="0" width="1400" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14850746" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1076759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -473,23 +456,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+    <entry file="file://$PROJECT_DIR$/urls.py" />
+    <entry file="file://$PROJECT_DIR$/others/文档/WSGI.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/文档/WSGI.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -510,16 +487,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="451">
             <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/文档/Django的规范.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="501">
-            <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
           </first_editor>
           <second_editor />
         </state>
@@ -553,13 +520,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/settings.py" />
-    <entry file="file://$PROJECT_DIR$/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wsgi.py" />
     <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -614,16 +575,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/readme.md" />
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -633,13 +585,7 @@
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/blog/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://E:/Python35/Lib/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://E:/Python35/Lib/importlib/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/develop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -663,9 +609,16 @@
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/config/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/config/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="700">
           <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
@@ -675,21 +628,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/comment/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="550">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
+        <state relative-caret-position="425">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#636#668#0" expanded="true" />
@@ -699,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="400">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
@@ -708,6 +654,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/文档/Django的规范.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="525">
+            <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/文档/Model字段.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/文档/Queryset.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="772">
+            <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
