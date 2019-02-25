@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
 import mistune
 
 from django.contrib.auth.models import User
@@ -96,7 +95,7 @@ class Post(models.Model):
             tag = None
             post_list = []
         else:
-            post_list = tag.post_set.filter(status=Post.STATUS_NORMAL)\
+            post_list = tag.post_set.filter(status=Post.STATUS_NORMAL) \
                 .select_related('owner', 'category')
         return post_list, tag
 
@@ -108,7 +107,7 @@ class Post(models.Model):
             category = None
             post_list = []
         else:
-            post_list = category.post_set.filter(status=Post.STATUS_NORMAL)\
+            post_list = category.post_set.filter(status=Post.STATUS_NORMAL) \
                 .select_related('owner', 'category')
         return post_list, category
 

@@ -1,12 +1,13 @@
-from .base import *
+from .base import *  # N0QA
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+# flake8: N0QA
+DEBUG = True
+
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'demo',
+        'NAME': 'localhost_test',
         'USER': 'root',
         'PASSWORD': '1234',
         "TEST": {
