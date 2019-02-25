@@ -21,14 +21,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'wc@()^b(8#ss@xol!c#3a=s=x$#up1jnhm0b89_)=qbyiuk=xf'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
 
 ALLOWED_HOSTS = []
 
 # Application definition
 
 INSTALLED_APPS = [
+    "blog",
+    "config",
+    "comment",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
