@@ -18,6 +18,7 @@ from django.urls import path
 from .custom_site import custom_site
 
 urlpatterns = [
-    path('super_admin/', admin.site.urls),
-    path('admin/', custom_site.urls),
+    path('super_admin/', admin.site.urls),  # 管理用户
+    path('admin/', custom_site.urls),  # 管理业务
+    # 这两套系统是基于一套逻辑的用户系统，只是我们在url上进行了划分
 ]
