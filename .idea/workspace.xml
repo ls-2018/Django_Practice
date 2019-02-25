@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf56ee1-c3f0-42b2-b353-e0b38925eb14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/base_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminfilters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/Django企业开发实战.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminlog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/adminInlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminInlines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/adminforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminforms.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/Django企业开发实战/blog/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#902#1461#0" />
                 <element signature="e#1140#1157#0" />
@@ -119,8 +117,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="372" />
-    <option name="y" value="136" />
+    <option name="x" value="580" />
+    <option name="y" value="121" />
     <option name="width" value="1400" />
     <option name="height" value="932" />
   </component>
@@ -139,22 +137,6 @@
             <path>
               <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,7 +303,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551074776524</updated>
-      <workItem from="1551074788761" duration="11227000" />
+      <workItem from="1551074788761" duration="11837000" />
     </task>
     <task id="LOCAL-00001" summary="_">
       <created>1551075080761</created>
@@ -372,14 +354,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551085438670</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="_">
+      <created>1551086716624</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1551086716624</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11227000" />
+    <option name="totallyTimeSpent" value="11837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="794" y="257" width="1400" height="932" extended-state="0" />
+    <frame x="372" y="136" width="1400" height="932" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -641,7 +630,7 @@
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#902#1461#0" />
             <element signature="e#1140#1157#0" />

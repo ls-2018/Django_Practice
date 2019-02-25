@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.urls import reverse
 from django.utils.html import format_html
+from django.contrib.admin.models import LogEntry
 
 from .models import Post, Category, Tag
 from .admin_utils.adminforms import PostAdminForm
@@ -99,3 +100,8 @@ class PostAdmin(BaseOwnerAdmin):
         return obj.owner.username
 
     username.short_description = '作者'
+
+
+@admin.register(LogEntry, site=custom_site)
+class LogEntryAdmin(admin.ModelAdmin):
+    list_display = ['object_repr', 'object_id', 'action_flag', 'user', 'change_message']
