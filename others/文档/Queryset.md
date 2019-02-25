@@ -241,7 +241,7 @@
         {% endif %}
         它是最优的是因为：
         
-        因为QuerySet是惰性的，如果 'display_inbox' 是False的话，这不会产生数据库 查询。
+        因为QuerySet是惰性的，如果 'display_inbox' 是False的话，这不会产生数据库查询。
         
         使用 with 意味着我们会存储 user.emails.all 在一个变量中供后面使用，这允许被缓存以便重用。
         
