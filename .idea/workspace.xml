@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5200e40-1e78-4c28-8ade-747259e9f54b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/templates/blog/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/templates/blog/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/templates/config/blocks/sidebar_comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/templates/config/blocks/sidebar_posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/templates/config/links.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/Django企业开发实战.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/config/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/config/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="e5200e40-1e78-4c28-8ade-747259e9f54b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +53,9 @@
         <entry file="file://$PROJECT_DIR$/others/文档/Queryset.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1500" />
+              <first_editor relative-caret-position="150">
+                <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -90,9 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="575" />
-    <option name="y" value="87" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="827" />
+    <option name="y" value="228" />
     <option name="width" value="1400" />
     <option name="height" value="932" />
   </component>
@@ -164,15 +147,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551094204768</updated>
-      <workItem from="1551094208376" duration="1198000" />
+      <workItem from="1551094208376" duration="1325000" />
     </task>
+    <task id="LOCAL-00001" summary="_">
+      <created>1551098162335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551098162337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1198000" />
+    <option name="totallyTimeSpent" value="1325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -202,6 +193,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="_" />
+    <option name="LAST_COMMIT_MESSAGE" value="_" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -238,7 +233,9 @@
     <entry file="file://$PROJECT_DIR$/others/文档/Queryset.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1500" />
+          <first_editor relative-caret-position="150">
+            <caret line="66" column="24" lean-forward="true" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
