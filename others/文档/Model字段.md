@@ -44,6 +44,7 @@ unique_for_date=None,
 unique_for_month=None,
 unique_for_year=None,
 choices=None,
+required
 help_text='',
 db_column=None,
 db_tablespace=None,

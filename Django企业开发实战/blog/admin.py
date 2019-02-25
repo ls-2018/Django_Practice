@@ -3,6 +3,7 @@ from django.urls import reverse
 from django.utils.html import format_html
 
 from .models import Post, Category, Tag
+from .adminforms import PostAdminForm
 
 
 class CategoryOwnerFilter(admin.SimpleListFilter):
@@ -50,6 +51,7 @@ class TagAdmin(admin.ModelAdmin):
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
+    form = PostAdminForm
     list_display = ['title', 'category', 'status', 'created_time', 'username', 'operator']
     list_display_links = []  # 用来配置那些字段可以链接
     list_filter = ['category', ]
@@ -68,8 +70,8 @@ class PostAdmin(admin.ModelAdmin):
     #     'tag',
     # )
     # 多对多字段是横向展示，还是纵向展示
-    # filter_horizontal = ('tag',)
-    filter_vertical = ('tag',)  # 纵
+    filter_horizontal = ('tag',)
+    # filter_vertical = ('tag',)  # 纵
 
     fieldsets = [
         ('基础配置', {
@@ -92,6 +94,13 @@ class PostAdmin(admin.ModelAdmin):
             'fields': ('tag',)
         })
     ]
+
+    class Meta:
+        """通过自定义meta类来往页面上添加想要的Js以及CSS资源"""
+        css = {
+            'all': ("https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css",),
+        }
+        js = ("https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.bundle.js",)
 
     def __str__(self):
         return self.title
