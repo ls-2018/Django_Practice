@@ -3,8 +3,22 @@
 #   支持链式调用的接口
     -   all
     -   filter
-        -   filter(content_contains="条件")
-        -   filter(content_icontains="条件")
+        -   contains                包含
+        -   icontains               忽略大小写
+        -   exact                   精确匹配
+        -   iexact                  忽略大小写
+        -   in                      
+        -   gt                      大于
+        -   gte                     大于等于
+        -   lt                      小于
+        -   lte                     小于等于
+        -   startswith              类似contains  ，   只是会产生LIKE   '关键词%'这样的SQL
+        -   istartwwith             忽略大小写
+        -   endswith
+        -   iendswith
+        -   range                   create_time__range=('2018-05-01','2019-01-01')
+          
+        
     -   exclude     同filter相反的逻辑
     -   reverse     把queryset中的结果倒序排列
     -   distinct    去重
@@ -35,7 +49,8 @@
     
     
 #   高级接口
-    -   defer           把不需要的字段做延迟加载
+    -   defer           
+        把不需要的字段做延迟加载
         posts = Post.objects.all().defer("content")
         for post in posts:      # 此时会执行数据库查询
             print(post.content)  # 此时会执行数据库查询，获取到content
@@ -44,7 +59,8 @@
                 在外键查询时也会产生N+1的问题
             
       
-    -   only            与defer相反，只获取only里的字段，再获取其他值得时候，会产生额外的查询
+    -   only            
+        与defer相反，只获取only里的字段，再获取其他值得时候，会产生额外的查询
     
     
     -   select_related  
@@ -67,11 +83,99 @@
             print(post.tag.all())
         
         
+#   进阶查询
+    -   F
+        用来执行数据库层面的计算，从而避免出现竞争状态
+        object.all().update(pv=F('pv')+1)
+        在数据库层面执行原子操作
+    
+    -   Q
+        用来解决OR查询操作的
+        .filter(Q(id=1) | Q(id=2))
+        .filter(Q(id=1) & Q(id=2))   
+         
+        class Q(tree.Node):  
+            # Connection types  
+            AND = 'AND'  
+            OR = 'OR'  
+            default = AND  
+          
+            def __init__(self, *args, **kwargs):  
+                super(Q, self).__init__(children=list(args) + kwargs.items())  
+          
+            def _combine(self, other, conn):  
+                if not isinstance(other, Q):  
+                    raise TypeError(other)  
+                obj = type(self)()  
+                obj.add(self, conn)  
+                obj.add(other, conn)  
+                return obj  
+          
+            def __or__(self, other):  
+                return self._combine(other, self.OR)  
+          
+            def __and__(self, other):  
+                return self._combine(other, self.AND)  
+          
+            def __invert__(self):  
+                obj = type(self)()  
+                obj.add(self, self.AND)  
+                obj.negate()  
+                return obj    
+                
+                  
+            传Q对象,构造搜索条件
+            首先还是需要导入模块:
+            
+            from django.db.models import Q
+            传入条件进行查询:
+            q1 = Q()
+            q1.connector = 'OR'
+            q1.children.append(('id', 1))
+            q1.children.append(('id', 2))
+            q1.children.append(('id', 3))
+                
+            models.Tb1.objects.filter(q1)
+            合并条件进行查询:
+            con = Q()
+            
+            q1 = Q()
+            q1.connector = 'OR'
+            q1.children.append(('id', 1))
+            q1.children.append(('id', 2)) 
+            
+            q2 = Q()
+            q2.connector = 'OR'
+            q2.children.append(('status', '在线'))
+            
+            con.add(q1, 'AND')
+            con.add(q2, 'AND')
+            
+            models.Tb1.objects.filter(con)
+            
+    -   Count
+        用来做聚合查询
+        比如想要得到某个分类下有多少篇文章？
+        一对多反向查询
+        表名小写_set
+            #   category.post_set.count()
+        
+        categories = Category.objects.annotate(posts_count=Count("post"))
+        print(categories[0].posts_count)    // 相当于给category动态地增加了posts_count属性
+        
+    -   Sum
+        统计所有文章加起来的pv量
+        Post.objects.aggregate(all_pv=Sum('pv'))
+        # 输出结果类结果{‘all_pv’:372} 
         
         
+        -   annotate        增加属性
+        -   aggregate       直接计算结果
         
-                    
-
-
-
-
+    -   Avg
+    -   Min
+    -   Max
+        
+        
+    
+    
