@@ -3,30 +3,15 @@ from django.urls import reverse
 from django.utils.html import format_html
 
 from .models import Post, Category, Tag
-from .adminforms import PostAdminForm
-from .adminInlines import PostInline
+from .admin_utils.adminforms import PostAdminForm
+from .admin_utils.adminInlines import PostInline
 from Django企业开发实战.custom_site import custom_site
-
-
-class CategoryOwnerFilter(admin.SimpleListFilter):
-    """自定义过滤器只展示当前用户分类"""
-    title = "分类过滤器"
-    parameter_name = 'owner_category'  # 查询时url参数的名字
-
-    def lookups(self, request, model_admin):
-        # 返回要展示的内容和查询用的id，url传的参数
-        return Category.objects.filter(owner=request.user).values_list('id', 'name')
-
-    def queryset(self, request, queryset):
-        # 根据url query 的内容返回列表页数据
-        category_id = self.value()  # ？owner_category=1
-        if category_id:
-            return queryset.filter(category_id=self.value())
-        return queryset
+from Django企业开发实战.base_admin import BaseOwnerAdmin
+from blog.admin_utils.adminfilters import CategoryOwnerFilter
 
 
 @admin.register(Category)
-class CategoryAdmin(admin.ModelAdmin):
+class CategoryAdmin(BaseOwnerAdmin):
     list_filter = [CategoryOwnerFilter, ]
     inlines = [PostInline, ]
 
@@ -36,11 +21,6 @@ class CategoryAdmin(admin.ModelAdmin):
     def __str__(self):
         return self.title
 
-    def save_model(self, request, obj, form, change):
-        # admin保存前做一些操作
-        obj.owner = request.user
-        return super(CategoryAdmin, self).save_model(request, obj, form, change)
-
     def post_count(self, obj):
         return obj.post_set.count()
 
@@ -48,13 +28,13 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 @admin.register(Tag)
-class TagAdmin(admin.ModelAdmin):
+class TagAdmin(BaseOwnerAdmin):
     list_display = ('name', 'status', "created_time", 'owner')
     fields = ('name', 'status', 'owner')  # 添加或编辑所展示的字段
 
 
 @admin.register(Post, site=custom_site)
-class PostAdmin(admin.ModelAdmin):
+class PostAdmin(BaseOwnerAdmin):
     form = PostAdminForm
 
     list_display = ['title', 'category', 'status', 'created_time', 'username', 'operator']
@@ -119,12 +99,3 @@ class PostAdmin(admin.ModelAdmin):
         return obj.owner.username
 
     username.short_description = '作者'
-
-    def save_model(self, request, obj, form, change):
-        # admin保存前做一些操作
-        obj.owner = request.user
-        return super(PostAdmin, self).save_model(request, obj, form, change)
-
-    def get_queryset(self, request):
-        qs = super(PostAdmin, self).get_queryset(request)
-        return qs.filter(owner=request.user)

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Post
+from blog.models import Post
 
 
 class PostInline(admin.TabularInline):  # StackedInline 样式不同
