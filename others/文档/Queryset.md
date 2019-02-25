@@ -61,6 +61,11 @@
         当然这个接口，只能用来解决一对多的关联关系。
     
     -   prefetch_related    
+        用来多对多字段的产生的N+1方案
+        posts = Post.object.all().prefetch_related('tag')
+        for post in posts:  # 产生两条查询语句，分别是post和tag
+            print(post.tag.all())
+        
         
         
         
