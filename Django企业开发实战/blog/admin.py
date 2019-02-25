@@ -4,6 +4,8 @@ from django.utils.html import format_html
 
 from .models import Post, Category, Tag
 from .adminforms import PostAdminForm
+from .adminInlines import PostInline
+from Django企业开发实战.custom_site import custom_site
 
 
 class CategoryOwnerFilter(admin.SimpleListFilter):
@@ -26,6 +28,8 @@ class CategoryOwnerFilter(admin.SimpleListFilter):
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_filter = [CategoryOwnerFilter, ]
+    inlines = [PostInline, ]
+
     list_display = ('name', 'status', 'is_nav', "created_time", 'owner', 'post_count')
     fields = ('name', 'status', 'is_nav', 'owner')
 
@@ -49,9 +53,10 @@ class TagAdmin(admin.ModelAdmin):
     fields = ('name', 'status', 'owner')  # 添加或编辑所展示的字段
 
 
-@admin.register(Post)
+@admin.register(Post, site=custom_site)
 class PostAdmin(admin.ModelAdmin):
     form = PostAdminForm
+
     list_display = ['title', 'category', 'status', 'created_time', 'username', 'operator']
     list_display_links = []  # 用来配置那些字段可以链接
     list_filter = ['category', ]
@@ -106,7 +111,7 @@ class PostAdmin(admin.ModelAdmin):
         return self.title
 
     def operator(self, obj):
-        return format_html('<a href="{}">编辑</a>', reverse('admin:blog_post_change', args=(obj.id,)))
+        return format_html('<a href="{}">编辑</a>', reverse('cus_admin:blog_post_change', args=(obj.id,)))
 
     operator.short_description = '操作'
 
