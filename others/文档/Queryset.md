@@ -64,7 +64,7 @@
         与defer相反，只加载某字段，之后读取任何属性都会产生查询
     
     
-    -   select_related  
+    -   select_related  ·
         用来解决外键产生的N+1的问题的方案。
 
         posts = Post.objects.all().defer("content")
