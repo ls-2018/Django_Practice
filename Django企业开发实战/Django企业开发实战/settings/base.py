@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'blog.middleware.user_id.UserIDMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -52,6 +53,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Django企业开发实战.urls'
+
+THEME = 'bootstrap'
 
 TEMPLATES = [
     {
@@ -70,16 +73,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Django企业开发实战.wsgi.application'
-
-# Database
-# https://docs.djangoproject.com/en/2.0/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -117,8 +110,7 @@ USE_TZ = False  # 启用时区
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/tmp/static'  # 上线后才会用到
-THEME = 'bootstrap'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "themes", 'THEME', 'static'),
+    os.path.join(BASE_DIR, "themes", 'static'),
 ]

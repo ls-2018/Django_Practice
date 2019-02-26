@@ -2,8 +2,8 @@ from django.contrib.admin import AdminSite
 
 
 class CustomSite(AdminSite):
-    site_header = 'blog'
-    site_title = 'Django企业开发实战'
+    site_header = 'Typeidea'
+    site_title = 'Typeidea管理后台'
     index_title = '首页'
 
 

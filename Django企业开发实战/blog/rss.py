@@ -1,11 +1,7 @@
-"""
-提供一个RSS和sitemap输出的接口。RSS（Really Simple Syndication,简易信息聚合）用来提供订阅接口，让网站用户可以通过RSS阅读
-器订阅我们的网站，再有更新时，RSS阅读器会自动获取最新内容，网站用户可以在RSS阅读器中看到最新的内容，从而避免每次都需要打
-开网站才能看到是否有更新
-"""
 from django.contrib.syndication.views import Feed
 from django.urls import reverse
 from django.utils.feedgenerator import Rss201rev2Feed
+
 
 from .models import Post
 
@@ -17,10 +13,10 @@ class ExtendedRSSFeed(Rss201rev2Feed):
 
 
 class LatestPostFeed(Feed):
-    # feed_type = ExtendedRSSFeed # 可以不写，默认Rss201rev2Feed
+    feed_type = ExtendedRSSFeed
     title = "Typeidea Blog System"
     link = "/rss/"
-    description = "typeidea is a blog system power by django"
+    description = "Django企业开发实战 is a blog system power by django"
 
     def items(self):
         return Post.objects.filter(status=Post.STATUS_NORMAL)[:5]

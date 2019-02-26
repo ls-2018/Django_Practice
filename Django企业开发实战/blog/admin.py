@@ -13,11 +13,9 @@ from blog.admin_utils.adminfilters import CategoryOwnerFilter
 
 @admin.register(Category)
 class CategoryAdmin(BaseOwnerAdmin):
-    list_filter = [CategoryOwnerFilter, ]
     inlines = [PostInline, ]
-
     list_display = ('name', 'status', 'is_nav', "created_time", 'owner', 'post_count')
-    fields = ('name', 'status', 'is_nav', 'owner')
+    fields = ('name', 'status', 'is_nav',)
 
     def __str__(self):
         return self.title
@@ -30,17 +28,18 @@ class CategoryAdmin(BaseOwnerAdmin):
 
 @admin.register(Tag)
 class TagAdmin(BaseOwnerAdmin):
-    list_display = ('name', 'status', "created_time", 'owner')
-    fields = ('name', 'status', 'owner')  # 添加或编辑所展示的字段
+    list_display = ['name', 'status', "created_time", 'owner']
+    fields = ['name', 'status', ]  # 添加或编辑所展示的字段
 
 
 @admin.register(Post, site=custom_site)
-class PostAdmin(BaseOwnerAdmin):
+class PostAdmin(admin.ModelAdmin):
     form = PostAdminForm
 
     list_display = ['title', 'category', 'status', 'created_time', 'username', 'operator']
     list_display_links = []  # 用来配置那些字段可以链接
-    list_filter = ['category', ]
+    list_filter = [CategoryOwnerFilter, ]
+
     search_fields = ['title', 'category__name']
     actions_on_top = True  # 动作相关的配置，是否展示在顶部
     actions_on_bottom = True
@@ -100,6 +99,10 @@ class PostAdmin(BaseOwnerAdmin):
         return obj.owner.username
 
     username.short_description = '作者'
+
+    def save_model(self, request, obj, form, change):
+        obj.owner_id = request.user.id
+        obj.save()
 
 
 @admin.register(LogEntry, site=custom_site)
