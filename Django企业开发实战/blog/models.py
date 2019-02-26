@@ -5,6 +5,7 @@ import mistune
 from django.contrib.auth.models import User
 from django.core.cache import cache
 from django.db import models
+from django.utils.functional import cached_property
 
 
 class Category(models.Model):
@@ -80,7 +81,7 @@ class Post(models.Model):
     title = models.CharField(max_length=255, verbose_name="标题")
     desc = models.CharField(max_length=1024, blank=True, verbose_name="摘要")
     content = models.TextField(verbose_name="正文", help_text="正文必须为MarkDown格式")
-    content_html = models.TextField(verbose_name="正文html代码", blank=True, editable=False)        # 不需要人为修改
+    content_html = models.TextField(verbose_name="正文html代码", blank=True, editable=False)  # 不需要人为修改
     status = models.PositiveIntegerField(default=STATUS_NORMAL, choices=STATUS_ITEMS, verbose_name="状态")
     is_md = models.BooleanField(default=False, verbose_name="markdown语法")
     category = models.ForeignKey(Category, verbose_name="分类", on_delete=models.DO_NOTHING)
@@ -138,3 +139,8 @@ class Post(models.Model):
             result = cls.objects.filter(status=cls.STATUS_NORMAL).order_by('-pv')
             cache.set('hot_posts', result, 10 * 60)
         return result
+
+    @cached_property
+    def tags(self):
+        """cached_property可以帮我们把数据绑定到实例上，不用每次访问都去执行函数中的代码"""
+        return ",".join(self.tag.values_list('name', flat=True))

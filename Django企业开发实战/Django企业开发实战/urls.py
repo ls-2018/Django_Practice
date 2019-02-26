@@ -20,22 +20,28 @@ from .custom_site import custom_site
 from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView
 from config.views import LinkListView
 from comment.views import CommentView
+from django.contrib.sitemaps import views as sitemap_views
+from blog.rss import LatestPostFeed
+from blog.sitemap import PostSitemap
 
 urlpatterns = [
 
-    # re_path(r"^category/(?P<category_id>\d+)/$", post_detail, {'example': 'nap'}, name='category_list'),
     # 第三个参数定义默认传递到处理函数的参数
-    re_path(r'^$', IndexView.as_view(), name='index'),
-    re_path(r'^category/(?P<category_id>\d+)/$', CategoryView.as_view(), name='category-list'),
-    re_path(r'^tag/(?P<tag_id>\d+)/$', TagView.as_view(), name='tag-list'),
-    re_path(r'^post/(?P<post_id>\d+).html$', PostDetailView.as_view(), name='post-detail'),
-    re_path(r'^author/(?P<owner_id>\d+)/$', AuthorView.as_view(), name='author'),
-    re_path(r'^links/$', LinkListView.as_view(), name='links'),
-    re_path(r"^comment/$", CommentView.as_view(), name='comment'),
+    path("", IndexView.as_view(), name='index'),
+    re_path("category/(?P<category_id>\d+)/$", CategoryView.as_view(), name='category-list'),
+    re_path('tag/(?P<tag_id>\d+)/$', TagView.as_view(), name='tag-list'),
+    re_path('post/(?P<post_id>\d+).html$', PostDetailView.as_view(), name='post-detail'),
+    re_path('author/(?P<owner_id>\d+)/$', AuthorView.as_view(), name='author'),
+    re_path('links/$', LinkListView.as_view(), name='links'),
+    re_path("comment/$", CommentView.as_view(), name='comment'),
 
-    re_path("^search/$", SearchView.as_view(), name='search'),
+    re_path("search/$", SearchView.as_view(), name='search'),
 
     path('super_admin/', admin.site.urls),  # 管理用户
     path('admin/', custom_site.urls),  # 管理业务
     # 这两套系统是基于一套逻辑的用户系统，只是我们在url上进行了划分
+
+    # 配置RSS和SITEMAP的路由
+    re_path(r'^rss|feed/$', LatestPostFeed(), name='rss'),
+    re_path(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
 ]
