@@ -10,6 +10,9 @@ from django.shortcuts import get_object_or_404
 
 from config.models import SideBar
 from .models import Post, Category, Tag
+from comment.forms import CommentForm
+from comment.models import Comment
+from django.views.generic import TemplateView
 
 
 class CommonViewMixin:
@@ -84,7 +87,7 @@ class TagView(IndexView):
 
 class PostDetailView(CommonViewMixin, DetailView):
     model = None  # 指定当前View要使用Model,默认为空
-    queryset = Post.objects.filter(status=Post.STATUS_NORMAL)  # 和Model二选一，优先级更高，默认为空
+    queryset = Post.latest_posts()  # 和Model二选一，优先级更高，默认为空
     template_name = 'blog/detail.html'  # 模板的名字
     context_object_name = 'post'
     pk_url_kwarg = 'post_id'  # url参数的key
@@ -98,6 +101,7 @@ class PostDetailView(CommonViewMixin, DetailView):
         获取所有渲染到模板中的所有上下文
         返回一个字典，{k:v}
         """
+
         return super(PostDetailView, self).get_context_data(**kwargs)
 
     def get_object(self, queryset=None):

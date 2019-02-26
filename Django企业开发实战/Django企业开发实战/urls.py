@@ -19,6 +19,7 @@ from .custom_site import custom_site
 
 from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView
 from config.views import LinkListView
+from comment.views import CommentView
 
 urlpatterns = [
 
@@ -30,6 +31,7 @@ urlpatterns = [
     re_path(r'^post/(?P<post_id>\d+).html$', PostDetailView.as_view(), name='post-detail'),
     re_path(r'^author/(?P<owner_id>\d+)/$', AuthorView.as_view(), name='author'),
     re_path(r'^links/$', LinkListView.as_view(), name='links'),
+    re_path(r"^comment/$", CommentView.as_view(), name='comment'),
 
     re_path("^search/$", SearchView.as_view(), name='search'),
 
