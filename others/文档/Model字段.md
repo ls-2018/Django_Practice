@@ -51,3 +51,12 @@ db_tablespace=None,
 auto_created=False,
 validators=(),
 error_messages=None
+
+
+
+
+
+
+
+在实际使用中，GenericForeignKey ； 唯一的问题是我们需要操作两个模型表，这多少会对性能有些影响，因此我们往往会想办法自己来实现对应的逻辑。
+这其实也是基于通用性和特殊性之间的考虑，通用性能够得到更易用的逻辑，但是性能上会有损耗，而特殊性的处理逻辑在性能上会有一些优势，却降低了易用性

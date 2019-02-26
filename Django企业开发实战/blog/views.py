@@ -4,6 +4,7 @@ content_type：页面编码的类型        默认值是text/html
 status  :   状态码，默认200
 using   ：  使用哪种引擎解析     ，可以再setting设置，
 """
+from django.db.models import Q
 from django.views.generic import ListView, DetailView
 from django.shortcuts import get_object_or_404
 
@@ -110,3 +111,31 @@ class PostListView(ListView):
     paginate_by = 1  # 每页的数量为1
     context_object_name = 'post_list'  # 如果不设置此项，在模板中药使用object_list变量
     template_name = 'blog/list.html'
+
+
+class SearchView(IndexView):
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data()
+        context.update({
+            'keyword': self.request.GET.get("keyword", '')
+        })
+        return context
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        keyword = self.request.GET.get("keyword")
+        if not keyword:
+            return queryset
+
+        return queryset.filter(Q(title__icontains=keyword) | Q(desc_icontains=keyword))
+
+
+class AuthorView(IndexView):
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        author_id = self.request.GET.get("owner_id")
+        if not author_id:
+            return queryset
+
+        return queryset.filter(owner_id=author_id)

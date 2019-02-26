@@ -4,7 +4,7 @@ from django.contrib import admin
 class BaseOwnerAdmin(admin.ModelAdmin):
     """
     1、用来自动补充文章、分类、标签、侧边栏、友链这些Model的owner字段
-    2、用来针对queryset 过滤掉当前用户的数据
+    2、用来针对queryset 获取当前用户的数据
     """
 
     exclude = ('owner',)

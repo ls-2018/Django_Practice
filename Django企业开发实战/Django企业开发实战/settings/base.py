@@ -56,8 +56,7 @@ ROOT_URLCONF = 'Django企业开发实战.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'themes', 'bootstrap', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,3 +116,9 @@ USE_TZ = False  # 启用时区
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/tmp/static'  # 上线后才会用到
+THEME = 'bootstrap'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "themes", 'THEME', 'static'),
+]
