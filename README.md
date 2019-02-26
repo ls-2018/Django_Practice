@@ -25,7 +25,7 @@
         
         
         
-        
+pip install git+https://github.com/sshwsfc/xadmin@697a658
         
         
         
