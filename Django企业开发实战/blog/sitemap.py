@@ -26,10 +26,17 @@ class PostSitemap(Sitemap):
         """返回每篇文章的URL"""
         return reverse('post-detail', args=[obj.pk])
 
+
 """
 sitemap.xml
 
 url.item.tags需作如下支持，因为Post模型有tag这样一个多对多的关联，所以可以在模型中增加一个属性来输出配置好的tags。紧接着修改blog/models.py中的Post部分。
 
+
+可以使用 sitemap index 的方式 （即sitemap中的loc部分不是网页地址，而是另外一个sitemap地址来拆分sitemap）
+
+
+
+https://support.google.com/webmasters/answer/75712?hl=zh-Hans
 
 """
