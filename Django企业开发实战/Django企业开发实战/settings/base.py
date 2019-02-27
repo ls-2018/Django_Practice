@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'xadmin',
+    'crispy_forms',
     'Django企业开发实战',
     'blog',
     'config',
@@ -105,7 +107,6 @@ USE_TZ = False  # 启用时区
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-
 STATIC_URL = '/static/'
 STATIC_ROOT = '/tmp/static'  # 上线后才会用到
 THEME = 'bootstrap'

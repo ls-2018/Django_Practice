@@ -25,10 +25,7 @@
         
         
         
-pip install git+https://github.com/sshwsfc/xadmin@697a658
-        
-        
-        
+pip install git+git://github.com/sshwsfc/xadmin.git@django2       
         
         
         

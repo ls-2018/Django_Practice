@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class Comment(models.Model):
@@ -18,6 +19,7 @@ class Comment(models.Model):
     email = models.EmailField(verbose_name="邮箱")
     status = models.PositiveIntegerField(default=STATUS_NORMAL, choices=STATUS_ITEMS, verbose_name="状态")
     created_time = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
+    owner = models.ForeignKey(User, verbose_name="作者", on_delete=models.DO_NOTHING)
 
     class Meta:
         verbose_name = verbose_name_plural = "评论"

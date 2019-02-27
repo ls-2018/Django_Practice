@@ -1,6 +1,9 @@
 -i  http://pypi.doubanio.com/simple
-django==2.0.1
 pymysql==0.9.2
+Markdown==3.0.1
+Django==2.0.1
+mistune==0.8.4
+
 
 # 从当前setup.py中查找其他依赖项
 -e  .
