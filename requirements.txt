@@ -9,5 +9,6 @@ mistune==0.8.4
 xadmin==2.0.1
 Pillow==4.0.0
 
+
 # 从当前setup.py中查找其他依赖项
 -e  .
