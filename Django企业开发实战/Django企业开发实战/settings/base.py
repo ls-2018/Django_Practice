@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'ckeditor',
+    'ckeditor_uploader',  # 编辑器的文件上传功能
     'xadmin',
     'crispy_forms',
     "dal",
@@ -122,3 +123,19 @@ STATICFILES_DIRS = [
 
 XADMIN_TITLE = 'Django企业开发实战'
 XADMIN_FOOTER_TITLE = 'power by ls-2018'
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        'height': 300,
+        'width': 1300,
+        'tabSpace': 4,
+        'extraPlugins': 'codesnippet'  # 配置代码插件
+    }
+}
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+CKEDITOR_UPLOAD_PATH = "article_images"
+
+DEFAULT_FILE_STORAGE = 'Django企业开发实战.storage.WatermarkStorage'

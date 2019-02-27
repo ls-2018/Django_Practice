@@ -101,7 +101,8 @@ class Post(models.Model):
 
     def save(self, *args, **kwargs):
         if self.is_md:
-            self.content_html = mistune.markdown(self.content)
+            # self.content_html = mistune.markdown(self.content)        因为富文本编辑器提交的content是已经处理完成的HTML代码
+            self.content_html = self.content
         else:
             self.content_html = self.content
         super().save(*args, **kwargs)
@@ -144,5 +145,3 @@ class Post(models.Model):
     def tags(self):
         """cached_property可以帮我们把数据绑定到实例上，不用每次访问都去执行函数中的代码"""
         return self.tag.values("name", 'id')
-
-

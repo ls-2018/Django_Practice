@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path("blog/", include("blog.urls"))
 """
 
-from django.urls import path, re_path
+from django.urls import path, re_path, include
 
 from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView
 from config.views import LinkListView
@@ -24,6 +24,8 @@ from blog.rss import LatestPostFeed
 from blog.sitemap import PostSitemap
 from .autocomplete import CategoryAutocomplete, TagAutocomplete
 import xadmin
+from django.conf.urls.static import static
+from django.conf import settings
 
 urlpatterns = [
 
@@ -48,4 +50,7 @@ urlpatterns = [
     # 配置RSS和SITEMAP的路由
     re_path(r"rss|feed/$", LatestPostFeed(), name="rss"),
     re_path(r"sitemap\.xml$", sitemap_views.sitemap, {"sitemaps": {"posts": PostSitemap}}),
-]
+
+    path("ckeditor/", include('ckeditor_uploader.urls')),  # 文件上传
+
+]+    static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # 文件浏览
