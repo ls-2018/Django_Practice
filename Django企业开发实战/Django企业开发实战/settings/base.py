@@ -35,8 +35,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'xadmin',
     'crispy_forms',
+    "dal",
+    "dal_select2",
+
     'Django企业开发实战',
     'blog',
     'config',

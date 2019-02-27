@@ -14,9 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path("blog/", include("blog.urls"))
 """
 
-from django.contrib import admin
 from django.urls import path, re_path
-from .custom_site import custom_site
 
 from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView
 from config.views import LinkListView
@@ -24,7 +22,7 @@ from comment.views import CommentView
 from django.contrib.sitemaps import views as sitemap_views
 from blog.rss import LatestPostFeed
 from blog.sitemap import PostSitemap
-
+from .autocomplete import CategoryAutocomplete, TagAutocomplete
 import xadmin
 
 urlpatterns = [
@@ -42,6 +40,10 @@ urlpatterns = [
     path("search/", SearchView.as_view(), name="search"),
 
     path("admin/", xadmin.site.urls),  # 管理用户
+
+    #   搜索接口
+    re_path(r"category-autocomplete/$", CategoryAutocomplete.as_view(), name='category-autocomplete'),
+    re_path(r"tag-autocomplete/$", TagAutocomplete.as_view(), name='tag-autocomplete'),
 
     # 配置RSS和SITEMAP的路由
     re_path(r"rss|feed/$", LatestPostFeed(), name="rss"),
