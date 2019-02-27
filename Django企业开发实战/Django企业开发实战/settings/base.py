@@ -139,3 +139,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 CKEDITOR_UPLOAD_PATH = "article_images"
 
 DEFAULT_FILE_STORAGE = 'Django企业开发实战.storage.WatermarkStorage'
+
+#   markdown和django-ckeditor共存
+USER_MARKDOWN_EDITOR = True

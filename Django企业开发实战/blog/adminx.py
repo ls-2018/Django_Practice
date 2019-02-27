@@ -57,9 +57,9 @@ class PostAdmin(BaseOwnerAdmin):
     # 多对多字段是横向展示，还是纵向展示
     filter_horizontal = ('tag',)
     # filter_vertical = ('tag',)  # 纵
-    form_layout = (
+    form_layout = (  # 对增加的字段进行布局
         Fieldset('基础信息', Row("title", "category"), 'status', 'tag', ),
-        Fieldset('内容信息', 'desc', 'is_md', 'content', )
+        Fieldset('内容信息', 'desc', 'is_md', 'content_ck', 'content_md', 'content', )
     )
     """
     admin配置

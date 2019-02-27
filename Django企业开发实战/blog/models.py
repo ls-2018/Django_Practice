@@ -101,8 +101,7 @@ class Post(models.Model):
 
     def save(self, *args, **kwargs):
         if self.is_md:
-            # self.content_html = mistune.markdown(self.content)        因为富文本编辑器提交的content是已经处理完成的HTML代码
-            self.content_html = self.content
+            self.content_html = mistune.markdown(self.content)  # 因为富文本编辑器提交的content是已经处理完成的HTML代码
         else:
             self.content_html = self.content
         super().save(*args, **kwargs)
