@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'crispy_forms',
     "dal",
     "dal_select2",
-
+    'rest_framework',
+    
     'Django企业开发实战',
     'blog',
     'config',
