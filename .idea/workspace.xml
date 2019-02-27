@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07693d55-f3f3-4594-87f2-3967095502b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/storage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/adminx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/comment/migrations/0003_comment_owner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django企业开发实战/config/migrations/0003_auto_20190227_0952.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xadmin-2.0.1.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/base_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/base_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminInlines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminInlines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminfilters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/admin_utils/adminfilters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/comment/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/comment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/comment/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/config/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/config/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/templates/blog/list2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +13,34 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#307#1" />
+                <element signature="e#481#543#0" />
+                <element signature="e#894#1178#0" />
+                <element signature="e#1193#1640#0" />
+                <element signature="e#1690#2196#0" />
+                <element signature="e#1696#2193#0" />
+                <element signature="e#1868#2186#0" />
+                <element signature="e#1904#2175#0" />
+                <element signature="e#2250#2271#0" />
+                <element signature="e#2379#2775#0" />
+                <element signature="e#2385#2484#0" />
+                <element signature="e#2490#2579#0" />
+                <element signature="e#2585#2675#0" />
+                <element signature="e#2681#2772#0" />
+                <element signature="e#2777#2799#0" />
+                <element signature="e#2997#3037#0" />
+                <element signature="e#3201#3242#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
@@ -60,6 +70,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" />
       </list>
     </option>
   </component>
@@ -116,12 +127,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551237853059</updated>
-      <workItem from="1551237855132" duration="589000" />
+      <workItem from="1551237855132" duration="1352000" />
     </task>
+    <task id="LOCAL-00001" summary="xadmin">
+      <created>1551238464392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551238464392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589000" />
+    <option name="totallyTimeSpent" value="1352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="92" y="83" width="1901" height="911" extended-state="0" />
@@ -133,7 +152,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.5750332" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.09428951" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -154,6 +173,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="xadmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="xadmin" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -169,6 +192,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="111" column="19" lean-forward="true" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#307#1" />
+            <element signature="e#481#543#0" />
+            <element signature="e#894#1178#0" />
+            <element signature="e#1193#1640#0" />
+            <element signature="e#1690#2196#0" />
+            <element signature="e#1696#2193#0" />
+            <element signature="e#1868#2186#0" />
+            <element signature="e#1904#2175#0" />
+            <element signature="e#2250#2271#0" />
+            <element signature="e#2379#2775#0" />
+            <element signature="e#2385#2484#0" />
+            <element signature="e#2490#2579#0" />
+            <element signature="e#2585#2675#0" />
+            <element signature="e#2681#2772#0" />
+            <element signature="e#2777#2799#0" />
+            <element signature="e#2997#3037#0" />
+            <element signature="e#3201#3242#0" />
+          </folding>
         </state>
       </provider>
     </entry>

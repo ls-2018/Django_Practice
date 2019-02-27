@@ -17,7 +17,6 @@ class CategoryAdmin(BaseOwnerAdmin):
     # list_display = ('name', 'status', 'is_nav', "created_time", 'owner', 'post_count')
     list_display = ('name', 'status', 'is_nav', "created_time", 'owner',)
 
-
     # fields = ('name', 'status', 'is_nav',)
 
     def __str__(self):
@@ -33,7 +32,6 @@ class CategoryAdmin(BaseOwnerAdmin):
 class TagAdmin(BaseOwnerAdmin):
     list_display = ('name', 'status', "created_time", 'owner')
     fields = ('name', 'status',)  # 添加或编辑所展示的字段
-
 
 
 @xadmin.sites.register(Post)
@@ -120,7 +118,7 @@ class PostAdmin(BaseOwnerAdmin):
     #     media.add_css(['https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css'])
     #     return media
 
-
-@xadmin.sites.register(LogEntry)
-class LogEntryAdmin(BaseOwnerAdmin):
-    list_display = ['object_repr', 'object_id', 'action_flag', 'user', 'change_message']
+# admin 去掉admin自带的log配置
+# @xadmin.sites.register(LogEntry)
+# class LogEntryAdmin(BaseOwnerAdmin):
+#     list_display = ['object_repr', 'object_id', 'action_flag', 'user', 'change_message']

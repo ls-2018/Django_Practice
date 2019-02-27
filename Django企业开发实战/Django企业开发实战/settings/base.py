@@ -114,3 +114,6 @@ THEME = 'bootstrap'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+XADMIN_TITLE = 'Django企业开发实战'
+XADMIN_FOOTER_TITLE = 'power by ls-2018'
