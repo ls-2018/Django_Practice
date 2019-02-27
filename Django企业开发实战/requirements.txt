@@ -1,6 +1,0 @@
--i  http://pypi.doubanio.com/simple
-django==2.0.1
-
-
-# 从当前setup.py中查找其他依赖项
--e  .
