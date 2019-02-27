@@ -125,6 +125,11 @@ STATICFILES_DIRS = [
 XADMIN_TITLE = 'Django企业开发实战'
 XADMIN_FOOTER_TITLE = 'power by ls-2018'
 
+
+#   markdown和django-ckeditor共存
+USER_MARKDOWN_EDITOR = True
+
+
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'full',
@@ -141,5 +146,7 @@ CKEDITOR_UPLOAD_PATH = "article_images"
 
 DEFAULT_FILE_STORAGE = 'Django企业开发实战.storage.WatermarkStorage'
 
-#   markdown和django-ckeditor共存
-USER_MARKDOWN_EDITOR = True
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE':2,
+}

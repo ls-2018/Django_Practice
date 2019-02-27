@@ -1,14 +1,13 @@
 -i  http://pypi.doubanio.com/simple
 Django==2.0.1
-xadmin==2.0.1
-django_autocomplete_light==3.2.10
 Markdown==3.0.1
 django_ckeditor==5.6.1
-mistune==0.8.4
-Pillow==5.4.1
 dal==0.2
 djangorestframework==3.9.1
-
+django_autocomplete_light==3.2.10
+mistune==0.8.4
+xadmin==2.0.1
+Pillow==4.0.0
 
 # 从当前setup.py中查找其他依赖项
 -e  .

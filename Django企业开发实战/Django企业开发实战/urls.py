@@ -29,43 +29,40 @@ from django.conf import settings
 
 from rest_framework.documentation import include_docs_urls
 from rest_framework.routers import DefaultRouter
-from blog.apis import PostViewSet
+from blog.apis import PostViewSet, CategoryViewSet
+from blog.views import (
+    IndexView, CategoryView, TagView,
+    PostDetailView, SearchView, AuthorView
+)
 
 router = DefaultRouter()
-router.register(r"post", PostViewSet, base_name='post')
+router.register(r'post', PostViewSet, base_name='api-post')
+router.register(r'category', CategoryViewSet, base_name='api-category')
 
 urlpatterns = [
+                  re_path(r'^$', IndexView.as_view(), name='index'),
+                  re_path(r'^category/(?P<category_id>\d+)/$', CategoryView.as_view(), name='category-list'),
+                  re_path(r'^tag/(?P<tag_id>\d+)/$', TagView.as_view(), name='tag-list'),
+                  re_path(r'^search/$', SearchView.as_view(), name='search'),
+                  re_path(r'^comment/$', CommentView.as_view(), name='comment'),
+                  re_path(r'^author/(?P<owner_id>\d+)/$', AuthorView.as_view(), name='author'),
+                  re_path(r'^post/(?P<post_id>\d+).html$', PostDetailView.as_view(), name='post-detail'),
+                  re_path(r'^links/$', LinkListView.as_view(), name='links'),
+                  re_path(r'^admin/', xadmin.site.urls, name='xadmin'),  # 管理用户
 
-                  # 第三个参数定义默认传递到处理函数的参数
-                  # path("", IndexView.as_view(), name="index"),
-                  # re_path(r"category/(?P<category_id>\d+)/", CategoryView.as_view(), name="category-list"),
-                  # re_path(r"tag/(?P<tag_id>\d+)/", TagView.as_view(), name="tag-list"),
-                  # re_path(r"post/(?P<post_id>\d+).html", PostDetailView.as_view(), name="post-detail"),
-                  # re_path(r"author/(?P<owner_id>\d+)/", AuthorView.as_view(), name="author"),
-                  #
-                  # path("links/", LinkListView.as_view(), name="links"),
-                  # path("comment/", CommentView.as_view(), name="comment"),
-                  #
-                  # path("search/", SearchView.as_view(), name="search"),
-                  #
-                  # path("admin/", xadmin.site.urls),  # 管理用户
-                  #
-                  # #   搜索接口
-                  # re_path(r"category-autocomplete/$", CategoryAutocomplete.as_view(), name='category-autocomplete'),
-                  # re_path(r"tag-autocomplete/$", TagAutocomplete.as_view(), name='tag-autocomplete'),
-                  #
-                  # # 配置RSS和SITEMAP的路由
-                  # re_path(r"rss|feed/$", LatestPostFeed(), name="rss"),
-                  # re_path(r"sitemap\.xml$", sitemap_views.sitemap, {"sitemaps": {"posts": PostSitemap}}),
-                  #
-                  # path("ckeditor/", include('ckeditor_uploader.urls')),  # 文件上传
+                  # 配置RSS和SITEMAP的路由
+                  re_path(r'^rss|feed/', LatestPostFeed(), name='rss'),
+                  re_path(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
+                  #   搜索接口
+                  re_path(r'^category-autocomplete/$', CategoryAutocomplete.as_view(), name='category-autocomplete'),
+                  re_path(r'^tag-autocomplete/$', TagAutocomplete.as_view(), name='tag-autocomplete'),
 
-                  # restframeful 插件
-                  # re_path('api/post/$',post_list,name='post-list'),
-                  # re_path('api/post', PostList.as_view(), name='post-list')
-                  # re_path("api/", include(router.urls, namespace="api")),
-                  re_path("api/", include(router.urls, )),
+                  re_path(r'^ckeditor/', include('ckeditor_uploader.urls')),  # 文件上传
 
-                  re_path('api/docs/$', include_docs_urls(title='Django企业开发实战 apis')),
+
+                  re_path(r'^api/', include(router.urls)),
+                  re_path(r'^api/docs/', include_docs_urls(title='Django企业开发实战 apis')),
                   # 通过简单配置就可以得到接口文档，  视图类的   docstring
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # 文件浏览
+
+
