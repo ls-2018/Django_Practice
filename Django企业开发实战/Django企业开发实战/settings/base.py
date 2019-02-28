@@ -55,6 +55,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    # 'django.middleware.cache.UpdateCacheMiddleware',  # 整站缓存，简单粗暴
     'blog.middleware.user_id.UserIDMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -152,3 +153,49 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 2,
 }
+
+#   Django的几种缓存，因为缓存模块对外暴露的接口是一样的。
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': '127.0.0.1:6379:1',
+        'TIMEOUT': 300,
+        'OPTIONS': {
+            'PASSWORD': '',
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
+            'PARSER_CLASS': 'redis.connection.HiredisParser',
+        },
+        'CONECTION_POOL_CLASS': 'redis.connection.BlockingConnectionPool',
+    },
+}
+
+"""
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',  # 内存缓存，线程安全，进程独立
+        'LOCATION': 'unique-snowflake',
+    },
+}
+CACHES_1 = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',  # 文件系统
+        'LOCATION': '/var/tmp/django_cache',
+    },
+}
+CACHES_2 = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',  # 数据库缓存，意义不大
+        'LOCATION': 'my_cache_table',
+    },
+}
+CACHES_3 = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',  # memcached,他的分布式逻辑在客户端，默认支持
+        'LOCATION': [
+            '172.19.26.240:11211',
+            '172.19.26.242:11211',
+        ],
+    },
+}
+"""

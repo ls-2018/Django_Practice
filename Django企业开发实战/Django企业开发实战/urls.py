@@ -15,19 +15,20 @@ Including another URLconf
 """
 
 from django.urls import path, re_path, include
+from django.contrib.sitemaps import views as sitemap_views
+from django.conf.urls.static import static
+from django.conf import settings
+from django.views.decorators.cache import cache_page
+
+import xadmin
+from rest_framework.documentation import include_docs_urls
+from rest_framework.routers import DefaultRouter
 
 from config.views import LinkListView
 from comment.views import CommentView
-from django.contrib.sitemaps import views as sitemap_views
 from blog.rss import LatestPostFeed
 from blog.sitemap import PostSitemap
 from .autocomplete import CategoryAutocomplete, TagAutocomplete
-import xadmin
-from django.conf.urls.static import static
-from django.conf import settings
-
-from rest_framework.documentation import include_docs_urls
-from rest_framework.routers import DefaultRouter
 from blog.apis import PostViewSet, CategoryViewSet
 from blog.views import (
     IndexView, CategoryView, TagView,
@@ -51,7 +52,9 @@ urlpatterns = [
 
                   # 配置RSS和SITEMAP的路由
                   re_path(r'^rss|feed/', LatestPostFeed(), name='rss'),
-                  re_path(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
+                  # re_path(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
+                  re_path(r'^sitemap\.xml$', cache_page(60 * 20, key_prefix='sitemap_cache_')(sitemap_views.sitemap),
+                          {'sitemaps': {'posts': PostSitemap}}),  # 将sitemap进行缓存
                   #   搜索接口
                   re_path(r'^category-autocomplete/$', CategoryAutocomplete.as_view(), name='category-autocomplete'),
                   re_path(r'^tag-autocomplete/$', TagAutocomplete.as_view(), name='tag-autocomplete'),
@@ -69,5 +72,7 @@ if settings.DEBUG:
     urlpatterns += [
         re_path(r'^silk/', include('silk.urls', namespace='silk')),
         re_path('__debug__/', include(debug_toolbar.urls)),
-        
+
     ]
+
+
