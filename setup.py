@@ -63,5 +63,4 @@ setup(
         # 指定项目需要使用的python版本
         'Programming Language :: Python :: 3.6',
     ],
-
 )
