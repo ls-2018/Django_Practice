@@ -20,7 +20,7 @@ INSTALLED_APPS += [
     'debug_toolbar',
     'djdt_flamegraph',
     'pympler',
-    # 'debug_toolbar_line_profiler',
+    'debug_toolbar_line_profiler',
     'silk',
 ]
 
@@ -119,10 +119,10 @@ DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.logging.LoggingPanel',
     'debug_toolbar.panels.redirects.RedirectsPanel',
 
-    # 'djdt_flamegraph.FlamegraphPanel'  # 火焰图    ,windows有问题 attribute 'SIGALRM'
+    # 'djdt_flamegraph.FlamegraphPanel',  # 火焰图    ,windows有问题 attribute 'SIGALRM'
 
-    'pympler.panels.MemoryPanel'  #
+    'pympler.panels.MemoryPanel',  # 内存占用分析
 
-    # 'debug_toolbar_line_profiler.panel.ProfilingPanel'  # linux
+    'debug_toolbar_line_profiler.panel.ProfilingPanel'
 
 ]
