@@ -38,12 +38,16 @@ INSTALLED_APPS = [
 
     'ckeditor',
     'ckeditor_uploader',  # 编辑器的文件上传功能
-    'xadmin',
-    'crispy_forms',
+
     "dal",
     "dal_select2",
+
     'rest_framework',
-    
+
+    'xadmin',
+    'crispy_forms',
+    'reversion',
+
     'Django企业开发实战',
     'blog',
     'config',
@@ -125,10 +129,8 @@ STATICFILES_DIRS = [
 XADMIN_TITLE = 'Django企业开发实战'
 XADMIN_FOOTER_TITLE = 'power by ls-2018'
 
-
 #   markdown和django-ckeditor共存
 USER_MARKDOWN_EDITOR = True
-
 
 CKEDITOR_CONFIGS = {
     'default': {
@@ -147,6 +149,6 @@ CKEDITOR_UPLOAD_PATH = "article_images"
 DEFAULT_FILE_STORAGE = 'Django企业开发实战.storage.WatermarkStorage'
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE':2,
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 2,
 }

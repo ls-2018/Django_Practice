@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92552f3a-a787-48a1-90ee-6678445c89df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/文档/调试和优化2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wheel/django_debug_toolbar-1.9.1-py2.py3-none-any.whl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/develop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/config/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/config/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/文档/调试和优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/others/文档/调试和优化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django企业开发实战/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/文档/调试和优化2.md" beforeDir="false" afterPath="$PROJECT_DIR$/others/文档/调试和优化2.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +21,19 @@
         <entry file="file://$PROJECT_DIR$/others/文档/调试和优化2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="252">
-                <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <first_editor relative-caret-position="377">
+                <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="61" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -44,12 +50,13 @@
         <option value="$PROJECT_DIR$/others/文档/优化性能.md" />
         <option value="$PROJECT_DIR$/others/文档/调试和优化.md" />
         <option value="$PROJECT_DIR$/others/文档/调试和优化2.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="633" />
-    <option name="y" value="-5" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
+    <option name="y" value="-8" />
     <option name="width" value="1290" />
     <option name="height" value="1045" />
   </component>
@@ -61,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -69,10 +75,22 @@
               <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="文档" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,6 +128,7 @@
       <updated>1551310172949</updated>
       <workItem from="1551310180560" duration="460000" />
       <workItem from="1551312939496" duration="3753000" />
+      <workItem from="1551319550531" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -129,13 +148,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4213000" />
+    <option name="totallyTimeSpent" value="4864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-16" y="-8" width="1290" height="1045" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16829269" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -149,7 +168,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32850778" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.32807216" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -283,11 +302,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/others/文档/调试和优化2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="252">
-            <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <first_editor relative-caret-position="377">
+            <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="61" />
           </first_editor>
           <second_editor />
         </state>

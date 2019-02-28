@@ -19,17 +19,91 @@ DATABASES = {
 
 INSTALLED_APPS += [
     'debug_toolbar',
+    'djdt_flamegraph',
+    'pympler',
+    'silk',
 ]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+        'LOCATION': '/tmp/django_cache',
+    }
+}
+
 MIDDLEWARE += [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'silk.middleware.SilkyMiddleware',
 ]
+import six
 INTERNAL_IPS = ['127.0.0.1', ]
-
+SILKY_PYTHON_PROFILER = True
 DEBUG_TOOLBAR_CONFIG = {
-    'JQUERY_URL': 'https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js'
+    'JQUERY_URL': 'https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js',
+
+    # Toolbar options
+    'DISABLE_PANELS': {'debug_toolbar.panels.redirects.RedirectsPanel'},
+    'INSERT_BEFORE': '</body>',
+    'RENDER_PANELS': None,
+    'RESULTS_CACHE_SIZE': 10,
+    'ROOT_TAG_EXTRA_ATTRS': '',
+    'SHOW_COLLAPSED': False,
+    'SHOW_TOOLBAR_CALLBACK': 'debug_toolbar.middleware.show_toolbar',
+    # Panel options
+    'EXTRA_SIGNALS': [],
+    'ENABLE_STACKTRACES': True,
+    'HIDE_IN_STACKTRACES': (
+        'socketserver' if six.PY3 else 'SocketServer',
+        'threading',
+        'wsgiref',
+        'debug_toolbar',
+        'django',
+    ),
+    'PROFILER_MAX_DEPTH': 10,
+    'SHOW_TEMPLATE_CONTEXT': True,
+    'SKIP_TEMPLATE_PREFIXES': (
+        'django/forms/widgets/',
+        'admin/widgets/',
+    ),
+    'SQL_WARNING_THRESHOLD': 500,  # milliseconds
+}
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'brief': {
+            'format': '%(asctime)s %(levelname)-8s %(name)-15s %(message)s'
+        }
+    },
+    'handlers': {
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.handlers.RotatingFileHandler',
+            'filename': 'debug.log',
+        },
+        'console': {
+            'level': 'DEBUG',
+            'formatter': 'brief',
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        '': {
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'django': {
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+    },
 }
 
 DEBUG_TOOLBAR_PANELS = [
+    # debug_toolbar自带
     'debug_toolbar.panels.versions.VersionsPanel',
     'debug_toolbar.panels.timer.TimerPanel',
     'debug_toolbar.panels.settings.SettingsPanel',
@@ -38,11 +112,12 @@ DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.sql.SQLPanel',
     'debug_toolbar.panels.staticfiles.StaticFilesPanel',
     'debug_toolbar.panels.templates.TemplatesPanel',
-    'debug_toolbar.panels.cache.CacheHandler',
+    'debug_toolbar.panels.cache.CachePanel',
     'debug_toolbar.panels.signals.SignalsPanel',
     'debug_toolbar.panels.logging.LoggingPanel',
     'debug_toolbar.panels.redirects.RedirectsPanel',
-    'djdt_flamegraph.FlamegraphPanel'
+
+    # 'djdt_flamegraph.FlamegraphPanel'  # 火焰图    ,windows有问题 attribute 'SIGALRM'
+
+    'pympler.panels.MemoryPanel'  #
 ]
-
-
