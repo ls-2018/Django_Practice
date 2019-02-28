@@ -31,7 +31,6 @@ CACHES = {
     }
 }
 
-
 MIDDLEWARE += [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'silk.middleware.SilkyMiddleware',
@@ -123,6 +122,6 @@ DEBUG_TOOLBAR_PANELS = [
 
     'pympler.panels.MemoryPanel',  # 内存占用分析
 
-    'debug_toolbar_line_profiler.panel.ProfilingPanel'
+    'debug_toolbar_line_profiler.panel.ProfilingPanel',  # 行级性能分析插件
 
 ]
