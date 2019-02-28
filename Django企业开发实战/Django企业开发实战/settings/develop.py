@@ -1,5 +1,4 @@
-import os
-
+import six
 from .base import *  # N0QA
 
 """
@@ -21,6 +20,7 @@ INSTALLED_APPS += [
     'debug_toolbar',
     'djdt_flamegraph',
     'pympler',
+    # 'debug_toolbar_line_profiler',
     'silk',
 ]
 
@@ -31,13 +31,15 @@ CACHES = {
     }
 }
 
+
 MIDDLEWARE += [
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'silk.middleware.SilkyMiddleware',
 ]
-import six
+
 INTERNAL_IPS = ['127.0.0.1', ]
 SILKY_PYTHON_PROFILER = True
+
 DEBUG_TOOLBAR_CONFIG = {
     'JQUERY_URL': 'https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js',
 
@@ -120,4 +122,7 @@ DEBUG_TOOLBAR_PANELS = [
     # 'djdt_flamegraph.FlamegraphPanel'  # 火焰图    ,windows有问题 attribute 'SIGALRM'
 
     'pympler.panels.MemoryPanel'  #
+
+    # 'debug_toolbar_line_profiler.panel.ProfilingPanel'  # linux
+
 ]

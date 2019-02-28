@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858a6d58-d1d8-4547-8c95-2a53ac8de623" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wheel/Pympler-0.5.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wheel/django-silk-3.0.0.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../others/文档/测试.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/base_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/base_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Django企业开发实战/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/settings/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django企业开发实战/settings/develop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/settings/develop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Django企业开发实战/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../others/文档/调试和优化2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../others/文档/调试和优化2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,12 +58,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../others/文档/调试和优化2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="193">
-                <caret line="65" column="54" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="54" />
+              <first_editor relative-caret-position="300">
+                <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
+            <state relative-caret-position="1900">
               <caret line="80" selection-start-line="80" selection-end-line="80" />
             </state>
           </provider>
@@ -83,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django企业开发实战/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1175">
-              <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+            <state relative-caret-position="587">
+              <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="5" />
               <folding>
                 <element signature="e#637#683#0" expanded="true" />
               </folding>
@@ -93,13 +92,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#348#536#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Django企业开发实战/settings/develop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="108" column="50" lean-forward="true" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
+            <state relative-caret-position="362">
+              <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#1594#2385#0" />
+                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#784#1639#0" />
+                <element signature="e#1651#2442#0" />
               </folding>
             </state>
           </provider>
@@ -108,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Django企业开发实战/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1436">
+            <state relative-caret-position="25">
               <caret line="84" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
@@ -130,6 +155,7 @@
       <find>from</find>
       <find>latest_posts</find>
       <find>'</find>
+      <find>debug_toolbar_line_profiler</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -150,9 +176,10 @@
         <option value="$PROJECT_DIR$/config/models.py" />
         <option value="$PROJECT_DIR$/Django企业开发实战/base_admin.py" />
         <option value="$PROJECT_DIR$/Django企业开发实战/settings/base.py" />
-        <option value="$PROJECT_DIR$/Django企业开发实战/urls.py" />
-        <option value="$PROJECT_DIR$/Django企业开发实战/settings/develop.py" />
         <option value="$PROJECT_DIR$/../others/文档/调试和优化2.md" />
+        <option value="$PROJECT_DIR$/Django企业开发实战/urls.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/Django企业开发实战/settings/develop.py" />
       </list>
     </option>
   </component>
@@ -176,6 +203,11 @@
             <path>
               <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
@@ -310,17 +342,18 @@
       <option name="presentableId" value="Default" />
       <updated>1551310053124</updated>
       <workItem from="1551310065766" duration="6717000" />
-      <workItem from="1551318927536" duration="4334000" />
+      <workItem from="1551318927536" duration="4591000" />
+      <workItem from="1551325086030" duration="2085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11051000" />
+    <option name="totallyTimeSpent" value="13393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="1" width="1604" height="1045" extended-state="1" />
+    <frame x="353" y="1" width="1604" height="1045" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15284973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15479274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -334,7 +367,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008741" side_tool="true" weight="0.29537767" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49825174" visible="true" weight="0.4712514" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49825174" weight="0.4707207" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -405,15 +438,6 @@
         <state relative-caret-position="-31" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -450,35 +474,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
+        <state relative-caret-position="1900">
           <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1175">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-          <folding>
-            <element signature="e#637#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Django企业开发实战/settings/develop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="108" column="50" lean-forward="true" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#1594#2385#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Django企业开发实战/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1436">
+        <state relative-caret-position="25">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
@@ -486,10 +489,53 @@
     <entry file="file://$PROJECT_DIR$/../others/文档/调试和优化2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="193">
-            <caret line="65" column="54" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="54" />
+          <first_editor relative-caret-position="300">
+            <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#637#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#348#536#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/settings/develop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="28" column="69" selection-start-line="28" selection-start-column="69" selection-end-line="28" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#784#1639#0" />
+            <element signature="e#1651#2442#0" />
+          </folding>
         </state>
       </provider>
     </entry>
