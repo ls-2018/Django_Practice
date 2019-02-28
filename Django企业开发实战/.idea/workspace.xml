@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="858a6d58-d1d8-4547-8c95-2a53ac8de623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../others/文档/learn_cache.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../others/文档/my_lrucache.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../others/文档/缓存.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
@@ -285,23 +286,23 @@
       <workItem from="1551310065766" duration="6717000" />
       <workItem from="1551318927536" duration="4591000" />
       <workItem from="1551325086030" duration="2085000" />
-      <workItem from="1551330481093" duration="1485000" />
+      <workItem from="1551330481093" duration="1881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14878000" />
+    <option name="totallyTimeSpent" value="15274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="-6" width="1604" height="980" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15673575" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15673575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49912587" visible="true" weight="0.34306568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49912587" visible="true" weight="0.34306568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
