@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92552f3a-a787-48a1-90ee-6678445c89df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/文档/标准化打包和自动化部署.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django企业开发实战/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +36,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>db</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -169,7 +174,7 @@
       <workItem from="1551319550531" duration="651000" />
       <workItem from="1551323403915" duration="248000" />
       <workItem from="1551325038739" duration="2799000" />
-      <workItem from="1551329247186" duration="6688000" />
+      <workItem from="1551329247186" duration="6930000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -234,14 +239,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551335526693</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="标准化打包和自动化部署">
+      <created>1551336283040</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551336283040</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14599000" />
+    <option name="totallyTimeSpent" value="14841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="353" y="1" width="1604" height="1045" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26036268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -277,7 +290,8 @@
     <MESSAGE value="sql优化" />
     <MESSAGE value="数据库连接" />
     <MESSAGE value="缓存" />
-    <option name="LAST_COMMIT_MESSAGE" value="缓存" />
+    <MESSAGE value="标准化打包和自动化部署" />
+    <option name="LAST_COMMIT_MESSAGE" value="标准化打包和自动化部署" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/others/文档/admin_sso.md">
