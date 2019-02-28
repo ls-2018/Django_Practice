@@ -16,7 +16,6 @@ Including another URLconf
 
 from django.urls import path, re_path, include
 
-from blog.views import IndexView, CategoryView, TagView, PostDetailView, SearchView, AuthorView
 from config.views import LinkListView
 from comment.views import CommentView
 from django.contrib.sitemaps import views as sitemap_views
@@ -40,7 +39,7 @@ router.register(r'post', PostViewSet, base_name='api-post')
 router.register(r'category', CategoryViewSet, base_name='api-category')
 
 urlpatterns = [
-                  re_path(r'^$', IndexView.as_view(), name='index'),
+                  path(r'', IndexView.as_view(), name='index'),
                   re_path(r'^category/(?P<category_id>\d+)/$', CategoryView.as_view(), name='category-list'),
                   re_path(r'^tag/(?P<tag_id>\d+)/$', TagView.as_view(), name='tag-list'),
                   re_path(r'^search/$', SearchView.as_view(), name='search'),
@@ -59,10 +58,13 @@ urlpatterns = [
 
                   re_path(r'^ckeditor/', include('ckeditor_uploader.urls')),  # 文件上传
 
-
                   re_path(r'^api/', include(router.urls)),
                   re_path(r'^api/docs/', include_docs_urls(title='Django企业开发实战 apis')),
                   # 通过简单配置就可以得到接口文档，  视图类的   docstring
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # 文件浏览
 
-
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [
+                      re_path('__debug__/', include(debug_toolbar.urls)),
+                  ] + urlpatterns
