@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="进一步控制字符串格式参数 Coverage Results" MODIFIED="1551510327798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
+    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="进一步控制字符串格式参数 Coverage Results" MODIFIED="1551511466567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
   </component>
   <component name="FileEditorManager">
@@ -25,20 +26,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
+            <state relative-caret-position="515">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter1/practice/solution1.1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
               <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字符串方法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -117,6 +127,7 @@
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/__init__.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/123.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/基本语法.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字符串方法.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py" />
       </list>
     </option>
@@ -258,6 +269,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="字符串方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/第五章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字符串方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="my_lrucache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -283,6 +316,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.进一步控制字符串格式参数" />
+        <item itemvalue="Python.字符串方法" />
         <item itemvalue="Python.123" />
         <item itemvalue="Python.基本语法" />
       </list>
@@ -310,7 +344,7 @@
       <workItem from="1551494224938" duration="371000" />
       <workItem from="1551495079952" duration="3704000" />
       <workItem from="1551507232383" duration="96000" />
-      <workItem from="1551507603141" duration="3122000" />
+      <workItem from="1551507603141" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -424,22 +458,44 @@
       <option name="project" value="LOCAL" />
       <updated>1551510220918</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="python从菜鸟到高手">
+      <created>1551510762148</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1551510762148</updated>
+    </task>
+    <task id="LOCAL-00018" summary="python从菜鸟到高手">
+      <created>1551510801841</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1551510801841</updated>
+    </task>
+    <task id="LOCAL-00019" summary="python从菜鸟到高手">
+      <created>1551511125727</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551511125727</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30107000" />
+    <option name="totallyTimeSpent" value="30910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2033241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2033241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49695292" visible="true" weight="0.32777777" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39798206" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49695292" visible="true" weight="0.32777777" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39777777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -447,7 +503,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5030471" side_tool="true" weight="0.32777777" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" weight="0.4211111" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49695292" weight="0.4211111" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -792,10 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py">
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字符串方法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -803,6 +859,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
