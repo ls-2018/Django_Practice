@@ -27,3 +27,14 @@ print("hello\n"
 
 # 为空的值
 # False 0 [] {}  '' 
+
+
+
+
+from string import Template
+template = Template('$s $s $s')
+print(template.substitute(s = 'hello'))
+print(__name__)
+
+
+
