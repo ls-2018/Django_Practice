@@ -10,7 +10,7 @@ s = Student()
 print(Student.__dict__)
 print(s.__class__.__dict__)
 print(s.__dict__)
-
+# super()
 s._Student__run()
 
 # 获去类中所有的方法

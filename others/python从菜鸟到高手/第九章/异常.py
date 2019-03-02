@@ -10,3 +10,17 @@ TypeError
 ValueError
 ZeroDivisionError       除除法或者取模操作的第二个参数值为0时抛出的异常
 """
+
+
+try:
+    print(1)
+except Exception:
+    pass
+else:
+    pass
+    # 正常执行完后执行
+finally:
+    pass
+    # 不管有没有正常执行完毕，都执行
+
+
