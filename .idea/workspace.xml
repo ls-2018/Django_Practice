@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/1/2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py" afterDir="false" />
     </list>
@@ -14,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
-    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551620906272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
+    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551622172607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
   </component>
   <component name="FileEditorManager">
@@ -22,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="335">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -404,7 +403,7 @@
       <workItem from="1551507232383" duration="96000" />
       <workItem from="1551507603141" duration="9345000" />
       <workItem from="1551594709875" duration="1266000" />
-      <workItem from="1551613741946" duration="7105000" />
+      <workItem from="1551613741946" duration="8251000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -637,21 +636,36 @@
       <option name="project" value="LOCAL" />
       <updated>1551620750825</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="python从菜鸟到高手">
+      <created>1551621102900</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1551621102900</updated>
+    </task>
+    <task id="LOCAL-00035" summary="python从菜鸟到高手">
+      <created>1551621752609</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1551621752609</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44701000" />
+    <option name="totallyTimeSpent" value="45847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17681624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17681624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4957265" visible="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4957265" visible="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39777777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1046,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="335">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>
