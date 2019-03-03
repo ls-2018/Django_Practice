@@ -25,3 +25,15 @@ print(os.getcwd())
 # os.rename()   改名字
 # os.renames()   可以联目录一起改
 
+# os.path.exists('')
+#
+# os.symlink('a','b')     # a---->b       软链接
+# os.link('a','b')        #               硬链接
+# 如果链接文件存在，会抛出异常
+print(os.sep)   # 路径分割符     w \   l m  /
+print(os.pathsep)   # 环境变量中的分割符
+print(os.name)  # posix
+print(os.environ)   # 环境变量
+# print(os.getenv(key))# 获取操作系统的变量
+# print(os.putenv(key,value))   # 只设置当前进程中的值
+os.system('ls')    #执行命令
