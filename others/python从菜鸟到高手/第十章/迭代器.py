@@ -6,7 +6,7 @@
 而迭代不同,是读取多少元素,就将多少元素装载到内存当中,不读取就不装载。
 '''
 
-
+# 获取值
 class Student():
     def __init__(self):
         self.n = 1
@@ -22,6 +22,8 @@ class Student():
         因此：之前的斐波那契算法，也可以在这里实现
         停止迭代：抛出StopIteration异常
         """
+        if self.n > 20:
+            raise StopIteration
 
         return result
 
@@ -30,3 +32,4 @@ s = Student()
 for et in s:
     if len(et) < 20:
         print(et)
+        # 如果像现在这样，那么程序不会结束，因为迭代不会结束，必须抛出异常
