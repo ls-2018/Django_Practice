@@ -77,3 +77,41 @@ import heapq
 
 
 # 双端队列deque
+from collections import deque
+q=deque(range(10))
+print(q)
+q.append(1)
+q.appendleft(2)
+print(q)
+print(q.pop())
+print(q.popleft())
+
+
+
+
+
+
+
+
+
+
+
+
+# time
+import time
+localtime = time.localtime(time.time())
+print(localtime)# time.struct_time(tm_year=2019, tm_mon=3, tm_mday=4, tm_hour=7, tm_min=50, tm_sec=24, tm_wday=0, tm_yday=63, tm_isdst=0)
+print(localtime.tm_yday)# 63
+print(time.asctime(localtime))# Mon Mar  4 07:50:24 2019
+
+
+
+print(time.strftime("%Y-%d-%d"),time.localtime(time.time()))# 2019-04-04,后边可以不写,默认当前
+
+print(time.strftime("今天是%A",))  # 这里有一个问题,这样写在win回报编码错误
+
+
+# 解决办法
+import locale
+locale.setlocale(locale.LC_ALL,'zh_CN.UTF-8')
+print(time.strftime("今天是%A",))
