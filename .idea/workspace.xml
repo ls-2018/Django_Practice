@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="343">
+              <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -373,9 +373,6 @@
       <list>
         <item itemvalue="Python.常用模块" />
         <item itemvalue="Python.demo11.12" />
-        <item itemvalue="Python.正则表达式" />
-        <item itemvalue="Python.生成器" />
-        <item itemvalue="Python.迭代器" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +400,8 @@
       <workItem from="1551507232383" duration="96000" />
       <workItem from="1551507603141" duration="9345000" />
       <workItem from="1551594709875" duration="1266000" />
-      <workItem from="1551613741946" duration="8251000" />
+      <workItem from="1551613741946" duration="9129000" />
+      <workItem from="1551654779841" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -650,22 +648,113 @@
       <option name="project" value="LOCAL" />
       <updated>1551621752609</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="python从菜鸟到高手">
+      <created>1551622247918</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622247918</updated>
+    </task>
+    <task id="LOCAL-00037" summary="python从菜鸟到高手">
+      <created>1551622264505</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622264505</updated>
+    </task>
+    <task id="LOCAL-00038" summary="python从菜鸟到高手">
+      <created>1551622278349</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622278349</updated>
+    </task>
+    <task id="LOCAL-00039" summary="python从菜鸟到高手">
+      <created>1551622291146</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622291146</updated>
+    </task>
+    <task id="LOCAL-00040" summary="python从菜鸟到高手">
+      <created>1551622303847</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622303847</updated>
+    </task>
+    <task id="LOCAL-00041" summary="python从菜鸟到高手">
+      <created>1551622322522</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622322522</updated>
+    </task>
+    <task id="LOCAL-00042" summary="python从菜鸟到高手">
+      <created>1551622344375</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622344375</updated>
+    </task>
+    <task id="LOCAL-00043" summary="python从菜鸟到高手">
+      <created>1551622367620</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622367621</updated>
+    </task>
+    <task id="LOCAL-00044" summary="python从菜鸟到高手">
+      <created>1551622383556</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622383556</updated>
+    </task>
+    <task id="LOCAL-00045" summary="python从菜鸟到高手">
+      <created>1551622396050</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622396050</updated>
+    </task>
+    <task id="LOCAL-00046" summary="python从菜鸟到高手">
+      <created>1551622409317</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622409317</updated>
+    </task>
+    <task id="LOCAL-00047" summary="python从菜鸟到高手">
+      <created>1551622422495</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622422495</updated>
+    </task>
+    <task id="LOCAL-00048" summary="python从菜鸟到高手">
+      <created>1551622435710</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1551622435710</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45847000" />
+    <option name="totallyTimeSpent" value="48311000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17681624" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17895299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4957265" visible="true" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4957265" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39777777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,8 +762,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50427353" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49519232" weight="0.42444444" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053419" side_tool="true" visible="true" weight="0.42393735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4946581" visible="true" weight="0.42393735" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1060,8 +1149,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="343">
+          <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
         </state>
       </provider>
     </entry>

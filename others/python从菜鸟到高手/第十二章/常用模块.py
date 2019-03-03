@@ -58,5 +58,22 @@ print(a == b)
 print(a.difference(b))  # 返回a独有的              -
 print(a.symmetric_difference(b))  # 返回ab独有的集合             ^
 
-# 堆heap
+# 堆heap,最小堆、最大堆(其实就是列表,通过算法改变顺序)
+# 使用优先队列能以任意顺序增加元素值，并能快速找到最大、小的值
+# Python中并没有提供独立的类型,只提供了一个包含一些堆操作函数的模块
+import heapq
+
+# heapq.heappush(heap,value)# 将value加入堆
+# heapq.heapify(heap)# 将列表转换为堆
+# heapq.heapreplace(heap,value)# 将最小的值弹出,并将value入堆
+# heapq.nsmallest(n,iter)# 返回可迭代对象的前n个最小值,以列表形式返回
+# heapq.nlargest(n,iter)# 返回可迭代对象的前n个最大值,以列表形式返回
+# heapq.merge(*iter,key)# 合并多个有序的迭代对象,如果指定key,则以么米格元素的排序规则会利用key制定的函数
+
+
+
+
+
+
+
 # 双端队列deque
