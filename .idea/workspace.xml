@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="437">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15827">
+              <caret line="833" column="6" selection-start-line="833" selection-start-column="6" selection-end-line="833" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -82,14 +99,14 @@
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字典.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第七章/函数.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="644" />
-    <option name="y" value="33" />
+    <option name="x" value="526" />
+    <option name="y" value="161" />
     <option name="width" value="1276" />
     <option name="height" value="1047" />
   </component>
@@ -101,7 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,10 +136,39 @@
               <item name="others" type="462c0819:PsiDirectoryNode" />
               <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="第七章" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="第九章" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="第二章" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="第八章" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.类">
+  <component name="RunManager">
     <configuration name="函数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,11 +315,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.类" />
         <item itemvalue="Python.函数" />
-        <item itemvalue="Python.字典" />
-        <item itemvalue="Python.进一步控制字符串格式参数" />
-        <item itemvalue="Python.字符串方法" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +341,8 @@
       <workItem from="1551494224938" duration="371000" />
       <workItem from="1551495079952" duration="3704000" />
       <workItem from="1551507232383" duration="96000" />
-      <workItem from="1551507603141" duration="8154000" />
+      <workItem from="1551507603141" duration="9345000" />
+      <workItem from="1551594709875" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -463,22 +505,35 @@
       <option name="project" value="LOCAL" />
       <updated>1551515530688</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="python从菜鸟到高手">
+      <created>1551516208019</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1551516208019</updated>
+    </task>
+    <task id="LOCAL-00025" summary="python从菜鸟到高手">
+      <created>1551517078783</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1551517078783</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35139000" />
+    <option name="totallyTimeSpent" value="37102000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2033241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1736111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49695292" visible="true" weight="0.32777777" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49695292" weight="0.33071747" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39777777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,38 +568,7 @@
     <MESSAGE value="python从菜鸟到高手" />
     <option name="LAST_COMMIT_MESSAGE" value="python从菜鸟到高手" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/文档/Django的规范.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="475">
-            <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/others/文档/Markdown第三方库.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -901,17 +925,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py">
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="437">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="15827">
+          <caret line="833" column="6" selection-start-line="833" selection-start-column="6" selection-end-line="833" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

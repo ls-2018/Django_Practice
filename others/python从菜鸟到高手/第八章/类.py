@@ -6,6 +6,7 @@ class Student:
         pass
 
 
+
 s = Student()
 print(Student.__dict__)
 print(s.__class__.__dict__)
