@@ -27,3 +27,4 @@ url = 'https?:/{2}(\w).+'
 url1 = 'https://geekori.com'
 m =re.match(url,url1)
 print(m.groups())
+
