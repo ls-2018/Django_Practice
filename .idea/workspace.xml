@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="" />
+    <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,9 +11,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
-    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551622172607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
+    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658735886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
+    <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
   </component>
   <component name="FileEditorManager">
@@ -19,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="304">
+              <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -106,40 +108,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
-              <item name="第十二章" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,6 +375,7 @@
       <workItem from="1551613741946" duration="9129000" />
       <workItem from="1551654779841" duration="1586000" />
       <workItem from="1551658246506" duration="54000" />
+      <workItem from="1551658570524" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="——">
       <created>1551310596370</created>
@@ -747,12 +717,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48365000" />
+    <option name="totallyTimeSpent" value="48383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1826923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -765,8 +735,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50586355" side_tool="true" visible="true" weight="0.42427617" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49413645" visible="true" weight="0.42427617" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50641024" side_tool="true" visible="true" weight="0.42505592" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49358973" visible="true" weight="0.42505592" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1140,8 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="304">
+          <caret line="122" column="28" selection-start-line="122" selection-start-column="28" selection-end-line="122" selection-end-column="28" />
         </state>
       </provider>
     </entry>
