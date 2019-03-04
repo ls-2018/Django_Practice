@@ -110,3 +110,21 @@ d2 = datetime.datetime(2018, 2, 2) + datetime.timedelta(hours=10)
 # print(d2.timestamp()) # 时间戳
 print((d2 - d1).days)
 print(d1.day)
+
+# calender
+import calendar
+
+locale.setlocale(locale.LC_ALL, 'zh_CN.UTF-8')
+cal = calendar.month(2019, 3)
+print(cal)
+
+# random
+
+import random
+
+random.random()  # 0~1的浮点数
+random.uniform(1, 2)  # 1~2的随机浮点数
+random.randrange(1, 6, 2)  # [1,3,5]随机选择一个整数
+random.choice([1, 2, 3])  # 随机选择一个
+random.sample([1, 2, 3, 4], 2)  # 随机选择2个元素
+random.shuffle([1, 2, 3, 4, 4, 23, 2])  # 将原序列打乱
