@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Radiobutton.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.17.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.17.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
     <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1551686085041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$demo14_11.coverage" NAME="demo14.11 Coverage Results" MODIFIED="1551671196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
     <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$Entry_Text.coverage" NAME="Entry_Text Coverage Results" MODIFIED="1551685225853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
@@ -26,7 +28,7 @@
     <SUITE FILE_PATH="coverage/Django$Radiobutton.coverage" NAME="Radiobutton Coverage Results" MODIFIED="1551685532572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
     <SUITE FILE_PATH="coverage/Django$.coverage" NAME="信号量 Coverage Results" MODIFIED="1551682450522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十七章" />
-    <SUITE FILE_PATH="coverage/Django$Checkbutton.coverage" NAME="Checkbutton Coverage Results" MODIFIED="1551685803156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$Checkbutton.coverage" NAME="Checkbutton Coverage Results" MODIFIED="1551685945933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
     <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
     <SUITE FILE_PATH="coverage/Django$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1551684098704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
@@ -48,47 +50,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Radiobutton.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.15.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="61" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="48">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -121,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/others/文档/my_lrucache.py" />
-        <option value="$PROJECT_DIR$/others/文档/learn_cache.py" />
-        <option value="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/urls.py" />
-        <option value="$PROJECT_DIR$/others/文档/缓存.md" />
         <option value="$PROJECT_DIR$/etup.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/others/文档/标准化打包和自动化部署.md" />
@@ -172,6 +134,10 @@
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Radiobutton.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.17.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py" />
       </list>
     </option>
   </component>
@@ -278,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Checkbutton">
+  <component name="RunManager" selected="Python.Scale">
     <configuration name="Checkbutton" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,6 +303,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Radiobutton.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -521,28 +509,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo18.11" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -567,11 +533,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Scale" />
         <item itemvalue="Python.Checkbutton" />
         <item itemvalue="Python.Radiobutton" />
         <item itemvalue="Python.Entry_Text" />
         <item itemvalue="Python.demo2" />
-        <item itemvalue="Python.demo18.11" />
       </list>
     </recent_temporary>
   </component>
@@ -604,14 +570,7 @@
       <workItem from="1551658246506" duration="54000" />
       <workItem from="1551658570524" duration="6164000" />
       <workItem from="1551669414161" duration="8417000" />
-      <workItem from="1551681609522" duration="4202000" />
-    </task>
-    <task id="LOCAL-00013" summary="标准化打包">
-      <created>1551342325503</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1551342325503</updated>
+      <workItem from="1551681609522" duration="4774000" />
     </task>
     <task id="LOCAL-00014" summary="自动化部署">
       <created>1551343378911</created>
@@ -949,22 +908,29 @@
       <option name="project" value="LOCAL" />
       <updated>1551685128056</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="python从菜鸟到高手">
+      <created>1551685825415</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1551685825415</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67148000" />
+    <option name="totallyTimeSpent" value="67720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18696581" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18696581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4946581" visible="true" weight="0.38255033" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946581" visible="true" weight="0.38255033" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39709172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1000,24 +966,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="python从菜鸟到高手" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11/demo11.12.py" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/1/2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/常用模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="129" column="48" selection-start-line="129" selection-start-column="48" selection-end-line="129" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1247971763/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="341" column="4" selection-start-line="341" selection-start-column="4" selection-end-line="341" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十三章/123.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -1288,6 +1236,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.17.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
