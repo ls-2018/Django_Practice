@@ -1,0 +1,10 @@
+<!--xml.xml-->
+<root>
+    <products>
+        <product uuid="1234">
+            <id>1222</id>
+            <name>xxx</name>
+            <price>112312</price>
+        </product>
+    </products>
+</root>

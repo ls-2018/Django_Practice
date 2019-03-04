@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<persons>
+    <item type="int">20</item>
+    <item type="str">names</item>
+    <item type="dict">
+        <name type="str">bill</name>
+        <age type="int">12</age>
+        <salary type="int">1230</salary>
+    </item>
+    <item type="dict">
+        <name type="str">bill</name>
+        <age type="int">12</age>
+        <salary type="int">1230</salary>
+    </item>
+    <item type="dict">
+        <name type="str">bill</name>
+        <age type="int">12</age>
+        <salary type="int">1230</salary>
+    </item>
+</persons>
