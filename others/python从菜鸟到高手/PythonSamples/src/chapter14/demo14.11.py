@@ -21,9 +21,9 @@ https://geekori.com/help/videocourse/readme.html
 from sqlalchemy import create_engine,MetaData,Table,Column,Integer,String,Float,exc,orm
 from sqlalchemy.ext.declarative import declarative_base
 import uuid
-mysql = 'mysql+pymysql://root:12345678@localhost:3306/meituan?charset=utf8'
+mysql = 'mysql+pymysql://root:1234@localhost:3306/demo?charset=utf8'
 
-tableName = 'persons1'
+tableName = 'person'
 
 
     
