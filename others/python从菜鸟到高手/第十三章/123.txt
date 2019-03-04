@@ -19,14 +19,13 @@ print(bytes(os.linesep,encoding='utf8'))    # '\n'
 
 
 import fileinput
-fileobj = fileinput.input('./123.txt')
-print(fileobj.filename())
+fileobj = fileinput.input('')
 print(fileobj.readline().rstrip())
 for line in fileobj:
     line = line.rstrip()
     if line:
-        print(fileobj.filelineno())
-        print(fileobj.filename())   # 必须在第一次读取文件内容后调用,否则为None
+        print(fileobj.lineno())
+        print(fileobj.filename())
         print(line)
 
 
