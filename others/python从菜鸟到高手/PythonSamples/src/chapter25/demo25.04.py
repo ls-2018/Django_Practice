@@ -13,7 +13,7 @@
 “极客题库”是欧瑞科技旗下在线题库，请扫描源代码根目录中的小程序码安装“极客题库”小程序
 
 关于更多信息，请访问下面的页面
-https://geekori.com/help/videocourse/readme.html
+https://geekori.com/help/videocourse/readme.md.html
 
 
 

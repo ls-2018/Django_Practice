@@ -2,30 +2,232 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/对话框.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.08.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.09.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.19.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/ha.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/practice/solution18.1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/practice/solution18.2.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/测试/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/测试/检查文档 .py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码逻辑.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码风格.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/responseCookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/responseCookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/BasicDjango/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/BasicDjango/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/condition.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/condition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/MyTemplates/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/MyTemplates/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/First.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/First.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/firstDjango/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/firstDjango/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/solution1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/solution1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/solution2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/solution2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/django/practice/practice/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/execute.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/execute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeBlogSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeBlogSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeMyScrapy.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeMyScrapy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeSaveBlogSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeSaveBlogSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeSaveBlogsSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/executeSaveBlogsSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/BlogSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/BlogSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/FirstSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/FirstSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/MySpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/MySpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/SaveBlogSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/SaveBlogSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/SaveBlogsSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/SaveBlogsSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/scrapy/myscrapy/myscrapy/spiders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/demo15.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/practice/solution15.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/practice/solution15.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/practice/solution15.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/practice/solution15.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/practice/solution15.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/practice/solution15.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/tt.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter15/tt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.13.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.14.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/practice/solution16.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/practice/solution16.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/practice/solution16.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/practice/solution16.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/upload_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/upload_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/uploads/demo16.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/uploads/demo16.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/demo17.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/practice/solution17.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/practice/solution17.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/practice/solution17.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/practice/solution17.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/practice/solution17.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter17/practice/solution17.3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/solution20.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/solution20.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/solution20_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/solution20_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.13.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.14.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.15.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.16.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.17.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.18.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.19.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.20.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.21.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/practice/solution21.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/practice/solution21.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/practice/solution21.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/practice/solution21.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.13.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.14.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.15.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/demo23.15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/practice/solution23.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/practice/solution23.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/practice/solution23.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter23/practice/solution23.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.13.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.14.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.15.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.16.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.17.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/demo24.17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/practice/solution24.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/practice/solution24.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/practice/solution24.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter24/practice/solution24.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.10.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/demo25.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/practice/solution25.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/practice/solution25.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/practice/solution25.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter25/practice/solution25.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.06.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.07.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.08.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.09.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/demo26.09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/practice/solution26.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/practice/solution26.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/practice/solution26.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter26/practice/solution26.2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/ModifyIP/dns.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/ModifyIP/dns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo01.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo02.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo03.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo04.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo05.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/analyze/demo05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/jdbra.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/jdbra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/tmallbra.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/bra/tmallbra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/city/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/django58/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/WXPay.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/WXPay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/combo.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/combo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/meishi.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/meishi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/pay.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/pay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/personal.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/personal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/shop.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/trade.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/trade.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/flaskmeituan/transaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/tetris/gsqlite.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/tetris/gsqlite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/weather/crawlerWeather.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/weather/crawlerWeather.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/weather/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/projects/weather/server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +240,8 @@
     <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
     <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1551688205573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$demo20_02.coverage" NAME="demo20_02 Coverage Results" MODIFIED="1551689791907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20" />
+    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_in_unit_py.coverage" NAME="Twisted Trial in unit_2.py Coverage Results" MODIFIED="1551690683321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
     <SUITE FILE_PATH="coverage/Django$demo14_11.coverage" NAME="demo14.11 Coverage Results" MODIFIED="1551671196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
     <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$Entry_Text.coverage" NAME="Entry_Text Coverage Results" MODIFIED="1551685225853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
@@ -46,8 +250,10 @@
     <SUITE FILE_PATH="coverage/Django$SQLObject.coverage" NAME="SQLObject Coverage Results" MODIFIED="1551674429706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
     <SUITE FILE_PATH="coverage/Django$demo18_11.coverage" NAME="demo18.11 Coverage Results" MODIFIED="1551684277947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18" />
     <SUITE FILE_PATH="coverage/Django$Radiobutton.coverage" NAME="Radiobutton Coverage Results" MODIFIED="1551685532572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_for__unit_2_TestCase.coverage" NAME="Twisted Trial for 测试.unit_2.TestCase Coverage Results" MODIFIED="1551690703555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
     <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
-    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="对话框 Coverage Results" MODIFIED="1551688845676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$demo.coverage" NAME="demo Coverage Results" MODIFIED="1551689726999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/测试" />
+    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="检测代码风格 Coverage Results" MODIFIED="1551691546574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/测试" />
     <SUITE FILE_PATH="coverage/Django$Checkbutton.coverage" NAME="Checkbutton Coverage Results" MODIFIED="1551685945933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
     <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
@@ -70,32 +276,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/添加菜单.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/对话框.py">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码风格.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="316">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -128,15 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/others/文档/自动化部署.md" />
-        <option value="$PROJECT_DIR$/MAINIFEST.in" />
-        <option value="$PROJECT_DIR$/fabric.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/123.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/__init__.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/123.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/基本语法.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字符串方法.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字典.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第七章/函数.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py" />
@@ -179,6 +355,15 @@
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/添加菜单.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.19.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/对话框.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/pyqt5/readme" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/readme" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/demo.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20_02.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/demo_1.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/readme.md" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/unit.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/unit_2.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码风格.py" />
       </list>
     </option>
   </component>
@@ -220,13 +405,6 @@
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="others" type="462c0819:PsiDirectoryNode" />
               <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI_tkinter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
               <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,6 +414,22 @@
               <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
               <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="测试" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -276,8 +470,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.对话框">
-    <configuration name="添加菜单" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.检测代码风格">
+    <configuration name="检测代码风格" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,100 +479,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/测试" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/添加菜单.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="对话框" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/对话框.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Checkbutton" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Listbox" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Scale" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码风格.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -541,13 +647,80 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="demo20_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20_02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial for others.python从菜鸟到高手.测试.检测代码逻辑.TestCase" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;others.python从菜鸟到高手.测试.检测代码逻辑.TestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial for others.python从菜鸟到高手.测试.检测代码逻辑.TestCase.testAdd" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;others.python从菜鸟到高手.测试.检测代码逻辑.TestCase.testAdd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Twisted Trial in 检测代码逻辑.py" type="tests" factoryName="Twisted Trial" temporary="true" nameIsGenerated="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码逻辑.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.对话框" />
-        <item itemvalue="Python.添加菜单" />
-        <item itemvalue="Python.Listbox" />
-        <item itemvalue="Python.Scale" />
-        <item itemvalue="Python.Checkbutton" />
+        <item itemvalue="Python.检测代码风格" />
+        <item itemvalue="Python tests.Twisted Trial for others.python从菜鸟到高手.测试.检测代码逻辑.TestCase" />
+        <item itemvalue="Python tests.Twisted Trial for others.python从菜鸟到高手.测试.检测代码逻辑.TestCase.testAdd" />
+        <item itemvalue="Python tests.Twisted Trial in 检测代码逻辑.py" />
+        <item itemvalue="Python.demo20_02" />
       </list>
     </recent_temporary>
   </component>
@@ -581,14 +754,7 @@
       <workItem from="1551658570524" duration="6164000" />
       <workItem from="1551669414161" duration="8417000" />
       <workItem from="1551681609522" duration="4774000" />
-      <workItem from="1551688036922" duration="805000" />
-    </task>
-    <task id="LOCAL-00015" summary="python从菜鸟到高手">
-      <created>1551507853659</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1551507853660</updated>
+      <workItem from="1551688036922" duration="3511000" />
     </task>
     <task id="LOCAL-00016" summary="python从菜鸟到高手">
       <created>1551510220918</created>
@@ -926,22 +1092,45 @@
       <option name="project" value="LOCAL" />
       <updated>1551688716364</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="python从菜鸟到高手">
+      <created>1551689036733</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1551689036733</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Twisted_Trial_in_unit_py - 2019.03.04 at 17h 07m 47s.xml">
+      <configuration name="Twisted Trial in unit.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_unit_2_py - 2019.03.04 at 17h 08m 39s.xml">
+      <configuration name="Twisted Trial in unit_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_unit_2_py - 2019.03.04 at 17h 10m 50s.xml">
+      <configuration name="Twisted Trial in unit_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_in_unit_2_py - 2019.03.04 at 17h 11m 24s.xml">
+      <configuration name="Twisted Trial in unit_2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Twisted_Trial_for_测试_unit_2_TestCase - 2019.03.04 at 17h 11m 44s.xml">
+      <configuration name="Twisted Trial for 测试.unit_2.TestCase" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68525000" />
+    <option name="totallyTimeSpent" value="71231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18910256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18910256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4946581" visible="true" weight="0.38255033" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946581" visible="true" weight="0.44519016" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39709172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -950,7 +1139,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50801283" side_tool="true" weight="0.29418343" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49198717" weight="0.7024608" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49198717" weight="0.52237135" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -977,43 +1166,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="python从菜鸟到高手" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/JSON.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/XML.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#300#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.06.py" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.09.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/sqlalchemy/engine/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="98" column="44" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.07.py" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.08.py" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.10.py" />
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.11.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM/SQLALCHEMY.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1278,6 +1430,83 @@
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/二维码.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/pyqt5/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/practice/solution20.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/readme.md">
+      <provider editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="552">
+            <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20/demo20.03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="20" selection-start-line="20" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/twisted/trial/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="701" selection-start-line="701" selection-end-line="701" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检查文档 .py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码逻辑.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码风格.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
