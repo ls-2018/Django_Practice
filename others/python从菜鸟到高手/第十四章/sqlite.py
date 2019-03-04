@@ -37,7 +37,7 @@ c.execute("INSERT INTO persons (id,name,age,address,salary) \
       VALUES (3, 'Teddy', 23, 'Norway', 20000.00 )");
 
 c.execute("INSERT INTO persons (id,name,age,address,salary) \
-      VALUES (4, 'Mark', 25, 'Rich-Mond ', 65000.00 )");
+      VALUES (?,?,?,?,? )",(4, 'Mark', 25, 'Rich-Mond ', 65000.00));
 conn.commit()
 
 print('插入数据成功')
