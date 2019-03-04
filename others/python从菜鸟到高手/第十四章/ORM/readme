@@ -1,0 +1,1 @@
+在使用SQLAchemy 和SQLObject 操作MySQL数据库时应注意,这两个ORM模块并不直接与MYSQL参与交互,而是通过其他的Python模块进行交互,如果没有指定默认MySQLdb
