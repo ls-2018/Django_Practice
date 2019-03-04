@@ -23,6 +23,7 @@ mysql = 'mysql+pymysql://root:1234@localhost:3306/demo?charset=utf8'
 # 创建数据库引擎(sqlalchemy.engine.base.Engine对象)
 engine = create_engine(mysql, encoding='utf-8')
 engine.connect()
+
 ########################创建表#####################################
 '''
 由于创建表需要指定表的元数据,也就是字段名\\字段数据类型等信息,所以要先创建Metadata对象,该对象通过构造方法的参数与engine关联,
@@ -37,6 +38,7 @@ person = Table('users', metadata,
                )
 # 创建表
 metadata.create_all(engine)
+
 ########################创建会话(Session)##########################
 # 任何数据库操作之前都需要创建session对象
 Session = orm.sessionmaker(bind=engine)
@@ -52,10 +54,29 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String(30))
     age = Column(Integer)
-##########################################################
 
 
-########################连接数据库##################################
+######################插入记录######################################
+# user = User( name='John', age=50)
+# session.add(user)
+# session.commit()
 
+######################删除记录######################################
+# 删除之前的对象
+# session.delete(user)
+# session.commit()
 
-########################连接数据库##################################
+######################更新记录######################################
+# 这个对象必须是查询的结果,或是新增的对象
+# user.name = '--------------------'
+# session.commit()
+
+######################插入记录######################################
+
+query = session.query(User).filter(User.id > 1)
+print(query)  # 也是懒加载,不使用就不查询
+for i in query:
+    print(i)
+
+########################关闭会话(Session)##########################
+session.close()
