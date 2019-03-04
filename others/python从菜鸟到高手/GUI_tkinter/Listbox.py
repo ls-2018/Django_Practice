@@ -37,7 +37,7 @@ for item in list_items:
 lb.insert(1, 'Python')
 lb.insert(2, 'Kotlin')
 lb.insert(3, 'Swift')
-lb.delete(2)
+# lb.delete(2)
 lb.pack(pady=20)
 
 window.mainloop()
