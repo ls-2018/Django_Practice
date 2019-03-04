@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/XML.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/person.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/JSON.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +16,11 @@
     <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
     <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$JSON.coverage" NAME="JSON Coverage Results" MODIFIED="1551662776161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/XML.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="229">
@@ -30,6 +28,15 @@
               <folding>
                 <element signature="e#300#316#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/JSON.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -102,6 +109,7 @@
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/数据存储.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/xml.xml" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/XML.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/JSON.py" />
       </list>
     </option>
   </component>
@@ -189,7 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.XML">
+  <component name="RunManager" selected="Python.JSON">
     <configuration name="常用模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,6 +234,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十三章/文件.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JSON" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/JSON.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -434,6 +464,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.JSON" />
         <item itemvalue="Python.XML" />
         <item itemvalue="Python.文件" />
         <item itemvalue="Python.常用模块" />
@@ -468,14 +499,7 @@
       <workItem from="1551613741946" duration="9129000" />
       <workItem from="1551654779841" duration="1586000" />
       <workItem from="1551658246506" duration="54000" />
-      <workItem from="1551658570524" duration="3647000" />
-    </task>
-    <task id="LOCAL-00004" summary="调试和优化">
-      <created>1551329387275</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1551329387275</updated>
+      <workItem from="1551658570524" duration="4089000" />
     </task>
     <task id="LOCAL-00005" summary="sql优化">
       <created>1551331131262</created>
@@ -813,14 +837,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551660777437</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="python从菜鸟到高手">
+      <created>1551662227697</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1551662227698</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52012000" />
+    <option name="totallyTimeSpent" value="52454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1826923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -863,16 +895,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="python从菜鸟到高手" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/文档/测试.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="775">
-            <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1217,6 +1239,13 @@
           <folding>
             <element signature="e#300#316#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/JSON.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
