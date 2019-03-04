@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/信号量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/StringVar_Button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/ha.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.12.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.13.py" beforeDir="false" afterPath="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.13.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,17 +19,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django$SQLObject.coverage" NAME="SQLObject Coverage Results" MODIFIED="1551674429706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
-    <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
     <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
-    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="信号量 Coverage Results" MODIFIED="1551677796238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十七章" />
+    <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$demo14_11.coverage" NAME="demo14.11 Coverage Results" MODIFIED="1551671196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
     <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
+    <SUITE FILE_PATH="coverage/Django$Entry_Text.coverage" NAME="Entry_Text Coverage Results" MODIFIED="1551685052286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$sqlite.coverage" NAME="sqlite Coverage Results" MODIFIED="1551670570127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$JSON.coverage" NAME="JSON Coverage Results" MODIFIED="1551663918527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$SQLObject.coverage" NAME="SQLObject Coverage Results" MODIFIED="1551674429706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
+    <SUITE FILE_PATH="coverage/Django$demo18_11.coverage" NAME="demo18.11 Coverage Results" MODIFIED="1551684277947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18" />
+    <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
+    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="信号量 Coverage Results" MODIFIED="1551682450522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十七章" />
     <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
     <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
-    <SUITE FILE_PATH="coverage/Django$sqlite.coverage" NAME="sqlite Coverage Results" MODIFIED="1551670570127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1551684098704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$demo16_09.coverage" NAME="demo16.09 Coverage Results" MODIFIED="1551676665521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16" />
-    <SUITE FILE_PATH="coverage/Django$JSON.coverage" NAME="JSON Coverage Results" MODIFIED="1551663918527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,29 +51,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/线程.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/信号量.py">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="404">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#67#87#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/threading.py">
+        <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/StringVar_Button.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="861" column="4" lean-forward="true" selection-start-line="861" selection-start-column="4" selection-end-line="867" selection-end-column="54" />
+            <state relative-caret-position="240">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -94,12 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/others/文档/调试和优化.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/others/文档/调试和优化2.md" />
-        <option value="$PROJECT_DIR$/others/文档/测试.md" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/__init__.py" />
         <option value="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/develop.py" />
         <option value="$PROJECT_DIR$/Django企业开发实战/Django企业开发实战/settings/product.py" />
         <option value="$PROJECT_DIR$/others/文档/数据库连接.md" />
@@ -145,6 +145,12 @@
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.09.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/线程.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/信号量.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/demo1.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.12.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/demo2.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.13.py" />
+        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py" />
       </list>
     </option>
   </component>
@@ -162,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,12 +191,46 @@
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="others" type="462c0819:PsiDirectoryNode" />
               <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
-              <item name="第十七章" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI_tkinter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+              <item name="python从菜鸟到高手" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter19" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,16 +240,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/others" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/others/python从菜鸟到高手" />
       <recent name="E:\Desktop\Django企业开发实战\wheel" />
       <recent name="E:\Desktop\Django企业开发实战\others\文档" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+      <recent name="$PROJECT_DIR$/others" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.信号量">
+  <component name="RunManager" selected="Python.Entry_Text">
     <configuration name="信号量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -248,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SQLALCHEMY" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Entry_Text" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,34 +297,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM/SQLALCHEMY.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SQLObject" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM/SQLObject.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -468,7 +487,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo14.11" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -476,12 +495,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Label.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -490,7 +509,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo16.09" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo18.11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -498,12 +517,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.09.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/StringVar_Button.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -514,11 +555,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Entry_Text" />
+        <item itemvalue="Python.demo2" />
+        <item itemvalue="Python.demo18.11" />
+        <item itemvalue="Python.demo1" />
         <item itemvalue="Python.信号量" />
-        <item itemvalue="Python.demo16.09" />
-        <item itemvalue="Python.SQLObject" />
-        <item itemvalue="Python.SQLALCHEMY" />
-        <item itemvalue="Python.demo14.11" />
       </list>
     </recent_temporary>
   </component>
@@ -551,6 +592,7 @@
       <workItem from="1551658246506" duration="54000" />
       <workItem from="1551658570524" duration="6164000" />
       <workItem from="1551669414161" duration="8417000" />
+      <workItem from="1551681609522" duration="3437000" />
     </task>
     <task id="LOCAL-00012" summary="标准化打包和自动化部署">
       <created>1551341588091</created>
@@ -899,12 +941,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62946000" />
+    <option name="totallyTimeSpent" value="66383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18482906" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18696581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -917,8 +960,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5053419" side_tool="true" visible="true" weight="0.38255033" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49252138" weight="0.29418343" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50801283" side_tool="true" weight="0.29418343" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49198717" weight="0.7024608" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -945,58 +988,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="python从菜鸟到高手" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter1/practice/solution1.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第二章/进一步控制字符串格式参数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第五章/字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第七章/函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/functools.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/inspect.py" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第九章/异常.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第八章/类.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1025,18 +1016,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11/demo11.11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11/demo11.12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11/demo11.11.py" />
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11/demo11.12.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十二章/1/2">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1099,20 +1080,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.06.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="20" selection-start-line="20" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.09.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="77" selection-start-line="22" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.06.py" />
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.09.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/sqlalchemy/engine/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1120,21 +1089,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.07.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.08.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.07.py" />
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.08.py" />
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.10.py" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1142,16 +1099,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="e#400#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.11.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM/SQLALCHEMY.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -1159,16 +1107,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="69" column="24" selection-start-line="20" selection-end-line="69" selection-end-column="24" />
-          <folding>
-            <element signature="e#400#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.12.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM/SQLObject.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -1200,13 +1139,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="66" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14/demo14.13.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16/demo16.09.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1271,24 +1204,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/threading.py">
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/线程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="861" column="4" lean-forward="true" selection-start-line="861" selection-start-column="4" selection-end-line="867" selection-end-column="54" />
+        <state relative-caret-position="960">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/线程.py">
+    <entry file="file:///usr/lib/python3.6/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="40" column="57" lean-forward="true" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        <state relative-caret-position="20520">
+          <caret line="861" column="4" selection-start-line="861" selection-start-column="4" selection-end-line="867" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/第十七章/信号量.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2225" selection-start-line="2225" selection-end-line="2225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/StringVar_Button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#67#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
