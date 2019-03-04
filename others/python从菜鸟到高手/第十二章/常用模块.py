@@ -38,7 +38,7 @@ print(os.name)  # posix
 print(os.environ)  # 环境变量
 # print(os.getenv(key))# 获取操作系统的变量
 # print(os.putenv(key,value))   # 只设置当前进程中的值
-os.system('ls')  # 执行命令
+# os.system('ls')  # 执行命令
 
 # 集合set
 set(range(10))
@@ -108,7 +108,7 @@ print(time.asctime(localtime))# Mon Mar  4 07:50:24 2019
 
 print(time.strftime("%Y-%d-%d"),time.localtime(time.time()))# 2019-04-04,后边可以不写,默认当前
 
-print(time.strftime("今天是%A",))  # 这里有一个问题,这样写在win回报编码错误
+# print(time.strftime("今天是%A",))  # 这里有一个问题,这样写在win回报编码错误
 
 
 # 解决办法
