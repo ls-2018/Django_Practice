@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,6 +18,7 @@
     <SUITE FILE_PATH="coverage/Django$zmq_clinet.coverage" NAME="zmq_clinet Coverage Results" MODIFIED="1551747549225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
     <SUITE FILE_PATH="coverage/Django$demo20_02.coverage" NAME="demo20_02 Coverage Results" MODIFIED="1551689791907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20" />
+    <SUITE FILE_PATH="coverage/Django$xmlrpc_server.coverage" NAME="xmlrpc_server Coverage Results" MODIFIED="1551753714184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$demo14_11.coverage" NAME="demo14.11 Coverage Results" MODIFIED="1551671196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
     <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
     <SUITE FILE_PATH="coverage/Django$Entry_Text.coverage" NAME="Entry_Text Coverage Results" MODIFIED="1551685225853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
@@ -29,6 +31,7 @@
     <SUITE FILE_PATH="coverage/Django$demo21_15.coverage" NAME="demo21.15 Coverage Results" MODIFIED="1551692802156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21" />
     <SUITE FILE_PATH="coverage/Django$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1551684098704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$redis.coverage" NAME="redis操作 Coverage Results" MODIFIED="1551705200611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$xmlrpc_client.coverage" NAME="xmlrpc_client Coverage Results" MODIFIED="1551753725465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$Listbox.coverage" NAME="Listbox Coverage Results" MODIFIED="1551688271785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1551688205573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
@@ -61,32 +64,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py">
+        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#212#222#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="192">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/gevent/_ssl2.py">
+        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="212" column="26" lean-forward="true" selection-start-line="212" selection-start-column="26" selection-end-line="212" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="5" column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py">
+        <entry file="file:///usr/lib/python3.6/socketserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="177">
+              <caret line="452" selection-start-line="452" selection-end-line="452" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/xmlrpc/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="597" selection-start-line="597" selection-end-line="597" />
             </state>
           </provider>
         </entry>
@@ -125,10 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.13.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Entry_Text.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.14.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Radiobutton.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py" />
@@ -173,9 +187,13 @@
         <option value="$PROJECT_DIR$/others/Python语言及其应用/ZEROMQ.py" />
         <option value="$PROJECT_DIR$/others/Python语言及其应用/查看编码方式.py" />
         <option value="$USER_HOME$/.local/lib/python3.6/site-packages/zmq/utils/jsonapi.py" />
-        <option value="$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py" />
         <option value="$USER_HOME$/.local/lib/python3.6/site-packages/zmq/sugar/socket.py" />
         <option value="$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc-client.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py" />
       </list>
     </option>
   </component>
@@ -211,47 +229,6 @@
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
               <item name="others" type="462c0819:PsiDirectoryNode" />
               <item name="Python语言及其应用" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="dist-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="dist-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="simplejson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="dist-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="zmq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.zmq_server">
+  <component name="RunManager" selected="Python.xmlrpc_client">
     <configuration name="查看编码方式" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,28 +286,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/查看编码方式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WSGI服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/WSGI服务器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -493,7 +448,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="异步gevent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="xmlrpc_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -506,7 +461,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/异步gevent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xmlrpc_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -561,11 +538,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xmlrpc_client" />
+        <item itemvalue="Python.xmlrpc_server" />
         <item itemvalue="Python.zmq_server" />
         <item itemvalue="Python.zmq_clinet" />
         <item itemvalue="Python.查看编码方式" />
-        <item itemvalue="Python.异步gevent" />
-        <item itemvalue="Python.WSGI服务器" />
       </list>
     </recent_temporary>
   </component>
@@ -603,21 +580,7 @@
       <workItem from="1551695681543" duration="1530000" />
       <workItem from="1551699151281" duration="7289000" />
       <workItem from="1551742099843" duration="355000" />
-      <workItem from="1551744036757" duration="7761000" />
-    </task>
-    <task id="LOCAL-00026" summary="python从菜鸟到高手">
-      <created>1551596056545</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1551596056546</updated>
-    </task>
-    <task id="LOCAL-00027" summary="python从菜鸟到高手">
-      <created>1551615637538</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1551615637538</updated>
+      <workItem from="1551744036757" duration="9829000" />
     </task>
     <task id="LOCAL-00028" summary="python从菜鸟到高手">
       <created>1551615759959</created>
@@ -948,7 +911,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551745079974</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Python语言及其应用">
+      <created>1551751975608</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1551751975608</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Python语言及其应用">
+      <created>1551752403931</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1551752403931</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -969,25 +946,25 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90731000" />
+    <option name="totallyTimeSpent" value="92799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946581" weight="0.34787473" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" visible="true" weight="0.39709172" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49918568" weight="0.39709172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" weight="0.28635347" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" visible="true" weight="0.28635347" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.508547" weight="0.32662192" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1167,42 +1144,12 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py</url>
           <line>24</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py</url>
-          <line>25</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码逻辑.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/bs.txt" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码风格.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/templates/bs.txt" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.15.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/templates/first.txt" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.17.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.19.py" />
@@ -1371,13 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/zmq/sugar/socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -1401,11 +1341,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="306">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="e#212#222#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/xmlrpc/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="597" selection-start-line="597" selection-end-line="597" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
