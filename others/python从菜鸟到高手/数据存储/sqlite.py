@@ -29,20 +29,26 @@ conn = sqlite3.connect(dbPath)
 c = conn.cursor()
 c.execute('delete from persons')
 c.execute("INSERT INTO persons (id,name,age,address,salary) \
-      VALUES (1, 'Paul', 32, 'California', 20000.00 )");
+      VALUES (1, 'Paul', 32, 'California', 20000.00 )")
 c.execute("INSERT INTO persons (id,name,age,address,salary) \
-      VALUES (2, 'Allen', 25, 'Texas', 15000.00 )");
+      VALUES (2, 'Allen', 25, 'Texas', 15000.00 )")
 
 c.execute("INSERT INTO persons (id,name,age,address,salary) \
-      VALUES (3, 'Teddy', 23, 'Norway', 20000.00 )");
+      VALUES (3, 'Teddy', 23, 'Norway', 20000.00 )")
 
 c.execute("INSERT INTO persons (id,name,age,address,salary) \
-      VALUES (?,?,?,?,? )",(4, 'Mark', 25, 'Rich-Mond ', 65000.00));
+      VALUES (?,?,?,?,? )",(4, 'Mark', 25, 'Rich-Mond ', 65000.00))
 conn.commit()
-
+# c.rowcount
+# conn.rollback()
 print('插入数据成功')
 
 persons = c.execute("select name,age,address,salary from persons order by age")
+'''
+c.fetchone()
+c.fetchall()
+c.fetchmany()
+'''
 print(type(persons))
 result = []
 for person in persons:
