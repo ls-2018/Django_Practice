@@ -51,3 +51,6 @@ class Demo:
 
     def __len__(self):
         return len(self)
+
+    def __del__(self):
+        pass

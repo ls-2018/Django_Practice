@@ -34,7 +34,8 @@ label.place(x=100, y=100, width=200, height=200)
     padx(设置边距,)
     pady(垂直外边距)# 上下不重叠
     内边距 ipady,ipadx
-    side 可以让多个控件按水平从左往右或从右往左排列(LEFT\RIGHT)
+    side 可以让多个控件按水平从左往右或从右往左排列(LEFT\RIGHT\TOP\BOTTOM)
+    anchor   停靠位置,对应于东南西北以及四个角,  n,s,e,w,nw,sw,se,ne,center
     
 '''
 
@@ -51,6 +52,9 @@ height
 '''
 row     当前行,从0开始
 column  当前列,从0开始
+
+
+
 from tkinter import *  
 window = Tk() 
 colours = ['red','green','orange','white','yellow','blue']
