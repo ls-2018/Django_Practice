@@ -32,3 +32,7 @@ pip3 install flake8
 用法和pylint一样,不用指定-v
 flake8 --select F401 test.py    只检测指定错误,  多个以,分割
 '''
+
+# ###############pip3 install pep8#########
+# 用法都是一样的
+#  pep8 xxxxxxxxxx.py
