@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/others/Python语言及其应用/fab1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +14,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Django$demo21_17.coverage" NAME="demo21.17 Coverage Results" MODIFIED="1551693586829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21" />
     <SUITE FILE_PATH="coverage/Django$zmq_clinet.coverage" NAME="zmq_clinet Coverage Results" MODIFIED="1551747549225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$msgpack_server.coverage" NAME="msgpack_server Coverage Results" MODIFIED="1551754236371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
     <SUITE FILE_PATH="coverage/Django$demo20_02.coverage" NAME="demo20_02 Coverage Results" MODIFIED="1551689791907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20" />
     <SUITE FILE_PATH="coverage/Django$xmlrpc_server.coverage" NAME="xmlrpc_server Coverage Results" MODIFIED="1551753714184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
@@ -36,6 +35,7 @@
     <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1551688205573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
     <SUITE FILE_PATH="coverage/Django$Twisted_Trial_in_unit_py.coverage" NAME="Twisted Trial in unit_2.py Coverage Results" MODIFIED="1551690683321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
+    <SUITE FILE_PATH="coverage/Django$msgpack_client.coverage" NAME="msgpack_client Coverage Results" MODIFIED="1551754245185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$JSON.coverage" NAME="JSON Coverage Results" MODIFIED="1551663918527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
     <SUITE FILE_PATH="coverage/Django$readme.coverage" NAME="readme Coverage Results" MODIFIED="1551701373736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$SQLObject.coverage" NAME="SQLObject Coverage Results" MODIFIED="1551674429706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
@@ -47,6 +47,7 @@
     <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
     <SUITE FILE_PATH="coverage/Django$demo16_09.coverage" NAME="demo16.09 Coverage Results" MODIFIED="1551676665521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16" />
     <SUITE FILE_PATH="coverage/Django$gevent.coverage" NAME="异步gevent Coverage Results" MODIFIED="1551744650240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$fab1.coverage" NAME="fab1 Coverage Results" MODIFIED="1551754600416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -73,11 +74,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state relative-caret-position="216">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/msgpack_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/fab1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="e#84#112#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py" />
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.16.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Scale.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18/demo18.17.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Listbox.py" />
@@ -193,7 +213,9 @@
         <option value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc-client.py" />
         <option value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_client.py" />
         <option value="$PROJECT_DIR$/others/Python语言及其应用/xmlrpc_server.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/msgpack_client.py" />
         <option value="$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py" />
+        <option value="$PROJECT_DIR$/others/Python语言及其应用/fab1.py" />
       </list>
     </option>
   </component>
@@ -271,29 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xmlrpc_client">
-    <configuration name="查看编码方式" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/查看编码方式.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.fab1">
     <configuration name="配置" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -448,6 +448,72 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fab1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/fab1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="msgpack_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/msgpack_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="msgpack_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Django企业开发实战" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xmlrpc_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -492,57 +558,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zmq_clinet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/zmq_clinet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="zmq_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python语言及其应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python语言及其应用/zmq_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.fab1" />
+        <item itemvalue="Python.msgpack_client" />
+        <item itemvalue="Python.msgpack_server" />
         <item itemvalue="Python.xmlrpc_client" />
         <item itemvalue="Python.xmlrpc_server" />
-        <item itemvalue="Python.zmq_server" />
-        <item itemvalue="Python.zmq_clinet" />
-        <item itemvalue="Python.查看编码方式" />
       </list>
     </recent_temporary>
   </component>
@@ -580,21 +602,7 @@
       <workItem from="1551695681543" duration="1530000" />
       <workItem from="1551699151281" duration="7289000" />
       <workItem from="1551742099843" duration="355000" />
-      <workItem from="1551744036757" duration="9829000" />
-    </task>
-    <task id="LOCAL-00028" summary="python从菜鸟到高手">
-      <created>1551615759959</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1551615759959</updated>
-    </task>
-    <task id="LOCAL-00029" summary="python从菜鸟到高手">
-      <created>1551616347278</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1551616347278</updated>
+      <workItem from="1551744036757" duration="12267000" />
     </task>
     <task id="LOCAL-00030" summary="python从菜鸟到高手">
       <created>1551617752043</created>
@@ -925,7 +933,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551752403931</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Python语言及其应用">
+      <created>1551754135660</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1551754135660</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Python语言及其应用">
+      <created>1551754552959</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1551754552959</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -946,12 +968,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92799000" />
+    <option name="totallyTimeSpent" value="95237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -964,7 +986,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" visible="true" weight="0.28635347" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" visible="true" weight="0.20022371" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.508547" weight="0.32662192" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1150,8 +1172,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/templates/first.txt" />
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.17.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.19.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/templates/select.txt" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.20.py" />
@@ -1386,8 +1406,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/msgpack_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="216">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/msgpack_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/fab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#84#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
