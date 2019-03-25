@@ -13,7 +13,7 @@ Pillow==4.0.0
 dal==0.2
 djangorestframework==3.9.1
 silk==0.1
-
+debug-toolbar-line-profiler==0.6.1
 
 # 从当前setup.py中查找其他依赖项
 -e  .

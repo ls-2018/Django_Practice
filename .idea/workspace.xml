@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/itchat.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/red_pocket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Django企业开发实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django企业开发实战.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,47 +13,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Django$demo21_17.coverage" NAME="demo21.17 Coverage Results" MODIFIED="1551693586829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21" />
-    <SUITE FILE_PATH="coverage/Django$zmq_clinet.coverage" NAME="zmq_clinet Coverage Results" MODIFIED="1551747549225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$msgpack_server.coverage" NAME="msgpack_server Coverage Results" MODIFIED="1551754236371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
     <SUITE FILE_PATH="coverage/Django$demo20_02.coverage" NAME="demo20_02 Coverage Results" MODIFIED="1551689791907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter20" />
-    <SUITE FILE_PATH="coverage/Django$xmlrpc_server.coverage" NAME="xmlrpc_server Coverage Results" MODIFIED="1551753714184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$demo14_11.coverage" NAME="demo14.11 Coverage Results" MODIFIED="1551671196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
-    <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
-    <SUITE FILE_PATH="coverage/Django$Entry_Text.coverage" NAME="Entry_Text Coverage Results" MODIFIED="1551685225853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$sqlite.coverage" NAME="sqlite Coverage Results" MODIFIED="1551704069179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
-    <SUITE FILE_PATH="coverage/Django$zmq_server.coverage" NAME="zmq_server Coverage Results" MODIFIED="1551751942690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$demo18_11.coverage" NAME="demo18.11 Coverage Results" MODIFIED="1551684277947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18" />
-    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_for__unit_2_TestCase.coverage" NAME="Twisted Trial for 测试.unit_2.TestCase Coverage Results" MODIFIED="1551690703555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
-    <SUITE FILE_PATH="coverage/Django$WSGI.coverage" NAME="WSGI服务器 Coverage Results" MODIFIED="1551706711022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$JIeba.coverage" NAME="JIeba Coverage Results" MODIFIED="1551778539115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战" />
-    <SUITE FILE_PATH="coverage/Django$demo.coverage" NAME="demo Coverage Results" MODIFIED="1551689726999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/测试" />
-    <SUITE FILE_PATH="coverage/Django$demo21_15.coverage" NAME="demo21.15 Coverage Results" MODIFIED="1551692802156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21" />
-    <SUITE FILE_PATH="coverage/Django$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1551684098704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$redis.coverage" NAME="redis操作 Coverage Results" MODIFIED="1551705200611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
-    <SUITE FILE_PATH="coverage/Django$xmlrpc_client.coverage" NAME="xmlrpc_client Coverage Results" MODIFIED="1551753725465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$Listbox.coverage" NAME="Listbox Coverage Results" MODIFIED="1551688271785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1551688205573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_in_unit_py.coverage" NAME="Twisted Trial in unit_2.py Coverage Results" MODIFIED="1551690683321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
-    <SUITE FILE_PATH="coverage/Django$red_pocket.coverage" NAME="red_pocket Coverage Results" MODIFIED="1551779268015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒" />
-    <SUITE FILE_PATH="coverage/Django$_.coverage" NAME="小小单词翻译器-原来的旧版 Coverage Results" MODIFIED="1551773530793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器" />
     <SUITE FILE_PATH="coverage/Django$msgpack_client.coverage" NAME="msgpack_client Coverage Results" MODIFIED="1551754245185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_in_unit_py.coverage" NAME="Twisted Trial in unit_2.py Coverage Results" MODIFIED="1551690683321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
     <SUITE FILE_PATH="coverage/Django$JSON.coverage" NAME="JSON Coverage Results" MODIFIED="1551663918527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
-    <SUITE FILE_PATH="coverage/Django$readme.coverage" NAME="readme Coverage Results" MODIFIED="1551701373736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
-    <SUITE FILE_PATH="coverage/Django$_1_.coverage" NAME="小小单词翻译器-1 英译中 Coverage Results" MODIFIED="1551773585431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器" />
-    <SUITE FILE_PATH="coverage/Django$SQLObject.coverage" NAME="SQLObject Coverage Results" MODIFIED="1551674429706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
-    <SUITE FILE_PATH="coverage/Django$Radiobutton.coverage" NAME="Radiobutton Coverage Results" MODIFIED="1551685532572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
-    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="二进制 Coverage Results" MODIFIED="1551771707129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/数据存储" />
-    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_in__py.coverage" NAME="Twisted Trial in 123.py Coverage Results" MODIFIED="1551757022183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
-    <SUITE FILE_PATH="coverage/Django$Checkbutton.coverage" NAME="Checkbutton Coverage Results" MODIFIED="1551685945933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
-    <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
-    <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1551684404594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django_Practice$.coverage" NAME="常用模块 Coverage Results" MODIFIED="1551658358362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十二章" />
+    <SUITE FILE_PATH="coverage/Django$Listbox.coverage" NAME="Listbox Coverage Results" MODIFIED="1551688271785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$red_pocket.coverage" NAME="red_pocket Coverage Results" MODIFIED="1551779268015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒" />
     <SUITE FILE_PATH="coverage/Django$demo16_09.coverage" NAME="demo16.09 Coverage Results" MODIFIED="1551676665521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter16" />
+    <SUITE FILE_PATH="coverage/Django$123.coverage" NAME="123 Coverage Results" MODIFIED="1551509183080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第二章" />
+    <SUITE FILE_PATH="coverage/Django$demo14_11.coverage" NAME="demo14.11 Coverage Results" MODIFIED="1551671196118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter14" />
+    <SUITE FILE_PATH="coverage/Django$SQLObject.coverage" NAME="SQLObject Coverage Results" MODIFIED="1551674429706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
+    <SUITE FILE_PATH="coverage/Django$demo21_17.coverage" NAME="demo21.17 Coverage Results" MODIFIED="1551693586829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21" />
+    <SUITE FILE_PATH="coverage/Django$demo.coverage" NAME="demo Coverage Results" MODIFIED="1551689726999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/测试" />
+    <SUITE FILE_PATH="coverage/Django$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1551684098704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$JIeba.coverage" NAME="JIeba Coverage Results" MODIFIED="1551778539115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战" />
+    <SUITE FILE_PATH="coverage/Django$redis.coverage" NAME="redis操作 Coverage Results" MODIFIED="1551705200611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$XML.coverage" NAME="XML Coverage Results" MODIFIED="1551662208483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$zmq_clinet.coverage" NAME="zmq_clinet Coverage Results" MODIFIED="1551747549225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$zmq_server.coverage" NAME="zmq_server Coverage Results" MODIFIED="1551751942690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_for__unit_2_TestCase.coverage" NAME="Twisted Trial for 测试.unit_2.TestCase Coverage Results" MODIFIED="1551690703555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
+    <SUITE FILE_PATH="coverage/Django$xmlrpc_client.coverage" NAME="xmlrpc_client Coverage Results" MODIFIED="1551753725465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
     <SUITE FILE_PATH="coverage/Django$gevent.coverage" NAME="异步gevent Coverage Results" MODIFIED="1551744650240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$sqlite.coverage" NAME="sqlite Coverage Results" MODIFIED="1551704069179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章" />
+    <SUITE FILE_PATH="coverage/Django$SQLALCHEMY.coverage" NAME="SQLALCHEMY Coverage Results" MODIFIED="1551673369260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/第十四章/ORM" />
+    <SUITE FILE_PATH="coverage/Django$msgpack_server.coverage" NAME="msgpack_server Coverage Results" MODIFIED="1551754236371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$readme.coverage" NAME="readme Coverage Results" MODIFIED="1551701373736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$Entry_Text.coverage" NAME="Entry_Text Coverage Results" MODIFIED="1551685225853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$_.coverage" NAME="小小单词翻译器-原来的旧版 Coverage Results" MODIFIED="1551773530793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器" />
+    <SUITE FILE_PATH="coverage/Django$demo11_12.coverage" NAME="demo11.12 Coverage Results" MODIFIED="1551620551973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter11" />
+    <SUITE FILE_PATH="coverage/Django$WSGI.coverage" NAME="WSGI服务器 Coverage Results" MODIFIED="1551706711022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$Radiobutton.coverage" NAME="Radiobutton Coverage Results" MODIFIED="1551685532572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$.coverage" NAME="二进制 Coverage Results" MODIFIED="1551771707129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/数据存储" />
+    <SUITE FILE_PATH="coverage/Django$Checkbutton.coverage" NAME="Checkbutton Coverage Results" MODIFIED="1551685945933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
+    <SUITE FILE_PATH="coverage/Django$_1_.coverage" NAME="小小单词翻译器-1 英译中 Coverage Results" MODIFIED="1551773585431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器" />
+    <SUITE FILE_PATH="coverage/Django$Twisted_Trial_in__py.coverage" NAME="Twisted Trial in 123.py Coverage Results" MODIFIED="1551757022183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手" />
+    <SUITE FILE_PATH="coverage/Django$xmlrpc_server.coverage" NAME="xmlrpc_server Coverage Results" MODIFIED="1551753714184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$demo18_11.coverage" NAME="demo18.11 Coverage Results" MODIFIED="1551684277947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter18" />
     <SUITE FILE_PATH="coverage/Django$fab1.coverage" NAME="fab1 Coverage Results" MODIFIED="1551754600416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/Python语言及其应用" />
+    <SUITE FILE_PATH="coverage/Django$demo21_15.coverage" NAME="demo21.15 Coverage Results" MODIFIED="1551692802156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21" />
+    <SUITE FILE_PATH="coverage/Django$Scale.coverage" NAME="Scale Coverage Results" MODIFIED="1551688205573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -87,20 +86,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/red_pocket.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#16#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -188,9 +174,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="551" />
-    <option name="y" value="101" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="y" value="-7" />
     <option name="width" value="1257" />
     <option name="height" value="842" />
   </component>
@@ -207,26 +193,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="Python项目案例开发从入门到实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django企业开发实战" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="Python项目案例开发从入门到实战" type="462c0819:PsiDirectoryNode" />
-              <item name="微信红包提醒" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -564,6 +537,7 @@
       <workItem from="1551770186454" duration="1041000" />
       <workItem from="1551771425574" duration="3735000" />
       <workItem from="1551776423235" duration="4159000" />
+      <workItem from="1553471230586" duration="674000" />
     </task>
     <task id="LOCAL-00037" summary="python从菜鸟到高手">
       <created>1551622264505</created>
@@ -944,16 +918,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105720000" />
+    <option name="totallyTimeSpent" value="106394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-11" y="-7" width="1257" height="842" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19604701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31077695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32997763" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4946581" weight="0.4869186" />
@@ -964,9 +936,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" weight="0.27181208" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" visible="true" weight="0.27046785" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.508547" weight="0.32550335" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32997763" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1167,44 +1140,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-257" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask3c.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask3b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/sys/mp3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/sys/mp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/bottle1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/README.md" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask3c.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask3b.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/sys/mp3.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/sys/mp.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/bottle1.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask1.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/数据存储/redis操作.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1212,12 +1154,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/capitals2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/ftoc2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/capitals2.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/ftoc2.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/数据存储/XML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -1242,35 +1180,11 @@
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/GUI_tkinter/Checkbutton.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/time1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/test_cap_nose.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/time_lists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/timeit1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/timeit2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/time1.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/test_cap_nose.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/time_lists.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/timeit1.py" />
+    <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/dev/timeit2.py" />
     <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/数据存储/二进制.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -1406,29 +1320,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6a6858b3-f962-43ca-b091-534c0c33f99e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://6a6858b3-f962-43ca-b091-534c0c33f99e/schema/main/table/sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a696175d-b93e-4002-a4d2-37e5dc617e63/schema/main/table/xadmin_log">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/redpocket.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/大数据技术.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6a6858b3-f962-43ca-b091-534c0c33f99e/console.sql" />
+    <entry file="das://6a6858b3-f962-43ca-b091-534c0c33f99e/schema/main/table/sqlite_master" />
+    <entry file="das://a696175d-b93e-4002-a4d2-37e5dc617e63/schema/main/table/xadmin_log" />
+    <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/redpocket.gif" />
+    <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/大数据技术.jpg" />
     <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -1448,8 +1344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/red_pocket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="229">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#16#29#0" expanded="true" />
           </folding>
