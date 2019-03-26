@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f5627a5-6032-4f58-a818-9fe15494ebdd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Django企业开发实战.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Django企业开发实战.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django企业开发实战/config/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django企业开发实战/config/apps.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,17 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Django企业开发实战/config/apps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/readme.md" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/unit.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/测试/unit_2.py" />
         <option value="$PROJECT_DIR$/others/python从菜鸟到高手/PythonSamples/src/chapter21/demo21.15.py" />
@@ -171,12 +179,13 @@
         <option value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/JIeba.py" />
         <option value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/readme.md" />
         <option value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/red_pocket.py" />
+        <option value="$PROJECT_DIR$/Django企业开发实战/config/apps.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-7" />
+    <option name="x" value="32" />
+    <option name="y" value="196" />
     <option name="width" value="1257" />
     <option name="height" value="842" />
   </component>
@@ -200,6 +209,12 @@
               <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
               <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Django_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django_Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Django企业开发实战" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,95 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.red_pocket">
-    <configuration name="小小单词翻译器-原来的旧版" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器/小小单词翻译器-原来的旧版.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="小小单词翻译器-1 英译中" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/第4章  调用百度API应用——小小翻译器/小小单词翻译器-1 英译中.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="二进制" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/python从菜鸟到高手/数据存储" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/python从菜鸟到高手/数据存储/二进制.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="JIeba" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Django企业开发实战" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/JIeba.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Django server.Unnamed">
     <configuration name="生成器" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -466,37 +393,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="red_pocket" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" nameIsGenerated="true">
       <module name="Django企业开发实战" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Python35\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/others/Python项目案例开发从入门到实战/微信红包提醒/red_pocket.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.red_pocket" />
-        <item itemvalue="Python.JIeba" />
-        <item itemvalue="Python.小小单词翻译器-1 英译中" />
-        <item itemvalue="Python.小小单词翻译器-原来的旧版" />
-        <item itemvalue="Python.二进制" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -538,27 +457,7 @@
       <workItem from="1551771425574" duration="3735000" />
       <workItem from="1551776423235" duration="4159000" />
       <workItem from="1553471230586" duration="674000" />
-    </task>
-    <task id="LOCAL-00037" summary="python从菜鸟到高手">
-      <created>1551622264505</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1551622264505</updated>
-    </task>
-    <task id="LOCAL-00038" summary="python从菜鸟到高手">
-      <created>1551622278349</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1551622278349</updated>
-    </task>
-    <task id="LOCAL-00039" summary="python从菜鸟到高手">
-      <created>1551622291146</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1551622291146</updated>
+      <workItem from="1553501654908" duration="851000" />
     </task>
     <task id="LOCAL-00040" summary="python从菜鸟到高手">
       <created>1551622303847</created>
@@ -882,7 +781,28 @@
       <option name="project" value="LOCAL" />
       <updated>1551778908935</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="django  企业开发">
+      <created>1553501687539</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1553501687539</updated>
+    </task>
+    <task id="LOCAL-00087" summary="django  企业开发">
+      <created>1553501725487</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1553501725487</updated>
+    </task>
+    <task id="LOCAL-00088" summary="django  企业开发">
+      <created>1553501802229</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1553501802229</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -918,12 +838,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106394000" />
+    <option name="totallyTimeSpent" value="107245000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-7" width="1257" height="842" extended-state="0" />
+    <frame x="-18" y="299" width="1257" height="842" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31077695" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31578946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -936,7 +856,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" visible="true" weight="0.27046785" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.491453" visible="true" weight="0.27046785" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.508547" weight="0.32550335" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32997763" />
@@ -989,7 +909,8 @@
     <MESSAGE value="python从菜鸟到高手" />
     <MESSAGE value="测试" />
     <MESSAGE value="Python语言及其应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python语言及其应用" />
+    <MESSAGE value="django  企业开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="django  企业开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1123,23 +1044,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/xxxxxxxxxxxxx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/python从菜鸟到高手/测试/检测代码逻辑.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/README.md" />
     <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask3c.py" />
     <entry file="file://$PROJECT_DIR$/others/Python语言及其应用/introducing-python/web/flask3b.py" />
@@ -1349,6 +1253,16 @@
           <folding>
             <element signature="e#16#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/debug.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Django企业开发实战/config/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

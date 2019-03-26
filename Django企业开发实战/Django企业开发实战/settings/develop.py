@@ -105,22 +105,22 @@ LOGGING = {
 
 DEBUG_TOOLBAR_PANELS = [
     # debug_toolbar自带
-    'debug_toolbar.panels.versions.VersionsPanel',
-    'debug_toolbar.panels.timer.TimerPanel',
-    'debug_toolbar.panels.settings.SettingsPanel',
-    'debug_toolbar.panels.headers.HeadersPanel',
-    'debug_toolbar.panels.request.RequestPanel',
-    'debug_toolbar.panels.sql.SQLPanel',
-    'debug_toolbar.panels.staticfiles.StaticFilesPanel',
-    'debug_toolbar.panels.templates.TemplatesPanel',
-    'debug_toolbar.panels.cache.CachePanel',
-    'debug_toolbar.panels.signals.SignalsPanel',
-    'debug_toolbar.panels.logging.LoggingPanel',
-    'debug_toolbar.panels.redirects.RedirectsPanel',
+    # 'debug_toolbar.panels.versions.VersionsPanel',
+    # 'debug_toolbar.panels.timer.TimerPanel',
+    # 'debug_toolbar.panels.settings.SettingsPanel',
+    # 'debug_toolbar.panels.headers.HeadersPanel',
+    # 'debug_toolbar.panels.request.RequestPanel',
+    # 'debug_toolbar.panels.sql.SQLPanel',
+    # 'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+    # 'debug_toolbar.panels.templates.TemplatesPanel',
+    # 'debug_toolbar.panels.cache.CachePanel',
+    # 'debug_toolbar.panels.signals.SignalsPanel',
+    # 'debug_toolbar.panels.logging.LoggingPanel',
+    # 'debug_toolbar.panels.redirects.RedirectsPanel',
 
     # 'djdt_flamegraph.FlamegraphPanel',  # 火焰图    ,windows有问题 attribute 'SIGALRM'
 
-    'pympler.panels.MemoryPanel',  # 内存占用分析
+    # 'pympler.panels.MemoryPanel',  # 内存占用分析
 
     'debug_toolbar_line_profiler.panel.ProfilingPanel',  # 行级性能分析插件
 
